@@ -1,0 +1,65 @@
+{
+  "project": "disease-syndromes-and-symptoms-lexicon",
+  "language": "en",
+  "namespace": 0,
+  "source": "https://en.wikipedia.org/w/api.php",
+  "retrieved_utc": [
+    "2026-11-24T20:52:27.570878+00:00",
+    "2026-11-24T20:53:41.585358+00:00"
+  ],
+  "membership": "direct only; no title filter",
+  "seed_count": 1079,
+  "sha256": "41f6251d1314ec5ceca7dbbf241e4bfbdc01e46959d626f1a2b3f03926048a68",
+  "categories": {
+    "Category:Disease": {
+      "state": "empty",
+      "article_members": 0,
+      "immediate_subcategories": 0
+    },
+    "Category:Diseases": {
+      "state": "empty",
+      "article_members": 0,
+      "immediate_subcategories": 0
+    },
+    "Category:Diseases and disorders": {
+      "state": "found",
+      "article_members": 30,
+      "immediate_subcategories": 20
+    },
+    "Category:Infectious disease": {
+      "state": "missing",
+      "article_members": 0,
+      "immediate_subcategories": 0
+    },
+    "Category:Infectious diseases": {
+      "state": "found",
+      "article_members": 149,
+      "immediate_subcategories": 43
+    },
+    "Category:Infectious diseases by type of pathogen": {
+      "state": "found",
+      "article_members": 0,
+      "immediate_subcategories": 6
+    },
+    "Category:Infectious diseases by mode of transmission": {
+      "state": "found",
+      "article_members": 1,
+      "immediate_subcategories": 9
+    },
+    "Category:Symptoms": {
+      "state": "found",
+      "article_members": 56,
+      "immediate_subcategories": 3
+    },
+    "Category:Syndromes": {
+      "state": "found",
+      "article_members": 532,
+      "immediate_subcategories": 18
+    },
+    "Category:Medical signs": {
+      "state": "found",
+      "article_members": 321,
+      "immediate_subcategories": 6
+    }
+  }
+}
