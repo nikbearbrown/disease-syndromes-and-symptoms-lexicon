@@ -1,0 +1,10 @@
+Concept: "{preferred_name}" (Wikipedia category: {kind})
+Below are {variant names | relation targets} proposed by anonymous drafters, in random order, each
+with an item id. {for targets: each line shows the target name and, if given, its seed concept id}
+{I1 ...} {I2 ...} ...
+
+Group items that name the SAME concept. {Variants: a variant matches only if, in clinical, public-health or
+encyclopaedic usage, it would name this same concept.} {Targets: ignore the relation type; group by what the target is.}
+Do not group a thing with a broader or narrower thing (upper respiratory tract infection is not respiratory tract
+infection; Murphy's triad is not Murphy's sign).
+Return: {"groups": [["I1","I4"],["I2"],["I3"]], "notes": {"I3": "<=20 words if unsure"}}
