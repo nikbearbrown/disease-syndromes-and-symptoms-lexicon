@@ -1,0 +1,1150 @@
+# Decisions for review before judging (Grok Bot disease run, 2026-11-24)
+
+Numbers are seed positions in data/seeds.tsv (1-based). Flags quoted from drafts.jsonl.
+
+## Redirects to non-seed pages (39)
+
+- 27 Ampola syndrome — redirect-unmapped: page redirects to non-seed page '3-mercaptopyruvate sulfurtransferase#Mercaptolactate-cysteine disulfiduria'; mapping left to the maintainer
+- 37 Aortic Arch Syndrome — redirect-unmapped: page redirects to non-seed page 'Takayasu's arteritis'; mapping left to the maintainer
+- 83 Body fat redistribution syndrome — redirect-unmapped: page redirects to non-seed page 'Lipodystrophy'; mapping left to the maintainer
+- 89 Bounding pulse — redirect-unmapped: page redirects to non-seed page 'Collapsing pulse'; mapping left to the maintainer
+- 131 Central nervous system syndrome — redirect-unmapped: page redirects to non-seed page 'Acute radiation syndrome'; mapping left to the maintainer
+- 170 Cortisol face — redirect-unmapped: page redirects to non-seed page 'Cortisol#Cortisol_face'; mapping left to the maintainer
+- 174 Cozen's test — redirect-unmapped: page redirects to non-seed page 'Tennis elbow#Cozen's test'; mapping left to the maintainer
+- 190 Cruveilhier-Baumgarten syndrome — redirect-unmapped: page redirects to non-seed page 'Cruveilhier–Baumgarten disease'; mapping left to the maintainer
+- 235 Einstein syndrome — redirect-unmapped: page redirects to non-seed page 'Late talker#Einstein_syndrome'; mapping left to the maintainer
+- 250 Episodic dyscontrol syndrome — redirect-unmapped: page redirects to non-seed page 'Intermittent explosive disorder'; mapping left to the maintainer
+- 275 Fibromyalgia syndrome — redirect-unmapped: page redirects to non-seed page 'Fibromyalgia'; mapping left to the maintainer
+- 285 Follicular occlusion tetrad — redirect-unmapped: page redirects to non-seed page 'Hair follicle#Follicular occlusion tetrad'; mapping left to the maintainer
+- 305 Gastrointestinal syndrome — redirect-unmapped: page redirects to non-seed page 'Acute radiation syndrome'; mapping left to the maintainer
+- 339 Hamman-Rich syndrome — redirect-unmapped: page redirects to non-seed page 'Acute interstitial pneumonitis'; mapping left to the maintainer
+- 347 Heel spur syndrome — redirect-unmapped: page redirects to non-seed page 'Plantar fasciitis'; mapping left to the maintainer
+- 362 HHH syndrome — redirect-unmapped: page redirects to non-seed page 'Ornithine translocase deficiency'; mapping left to the maintainer
+- 459 Kimmelstiel-Wilson syndrome — redirect-unmapped: page redirects to non-seed page 'Diabetic nephropathy'; mapping left to the maintainer
+- 474 Leriche's syndrome — redirect-unmapped: page redirects to non-seed page 'Aortoiliac occlusive disease'; mapping left to the maintainer
+- 487 Lima syndrome — redirect-unmapped: page redirects to non-seed page 'Stockholm syndrome#Lima syndrome'; mapping left to the maintainer
+- 506 London syndrome — redirect-unmapped: page redirects to non-seed page 'Stockholm syndrome#London syndrome'; mapping left to the maintainer
+- 514 Lynch Syndrome — redirect-unmapped: page redirects to non-seed page 'Hereditary nonpolyposis colorectal cancer'; mapping left to the maintainer
+- 533 Mayer–Rokitansky–Küster–Hauser syndrome — redirect-unmapped: page redirects to non-seed page 'Müllerian agenesis'; mapping left to the maintainer
+- 535 McArdle syndrome — redirect-unmapped: page redirects to non-seed page 'Glycogen storage disease type V'; mapping left to the maintainer
+- 545 Medical geography — redirect-unmapped: page redirects to non-seed page 'Health geography'; mapping left to the maintainer
+- 557 Mikulicz syndrome — redirect-unmapped: page redirects to non-seed page 'Benign lymphoepithelial lesion'; mapping left to the maintainer
+- 613 Nice Guy syndrome — redirect-unmapped: page redirects to non-seed page 'Nice guy#Other viewpoints'; mapping left to the maintainer
+- 666 Papular purpuric gloves and socks syndrome — redirect-unmapped: page redirects to non-seed page 'Parvovirus B19#Papular purpuric gloves and socks syndrome'; mapping left to the maintainer
+- 719 Post traumatic stress syndrome — redirect-unmapped: page redirects to non-seed page 'Post-traumatic stress disorder'; mapping left to the maintainer
+- 794 Renfield syndrome — redirect-unmapped: page redirects to non-seed page 'Clinical vampirism'; mapping left to the maintainer
+- 815 Rochon-Duvigneaud's syndrome — redirect-unmapped: page redirects to non-seed page 'Superior orbital fissure'; mapping left to the maintainer
+- 862 Severe acute respiratory syndrome — redirect-unmapped: page redirects to non-seed page 'SARS'; mapping left to the maintainer
+- 864 Sexual anomalies — redirect-unmapped: page redirects to non-seed page 'Sexual disorder'; mapping left to the maintainer
+- 873 Short man syndrome — redirect-unmapped: page redirects to non-seed page 'Napoleon complex'; mapping left to the maintainer
+- 892 Small Penis Syndrome — redirect-unmapped: page redirects to non-seed page 'Human penis size'; mapping left to the maintainer
+- 921 Superior orbital fissure syndrome — redirect-unmapped: page redirects to non-seed page 'Superior orbital fissure'; mapping left to the maintainer
+- 926 Survivor syndrome — redirect-unmapped: page redirects to non-seed page 'Survivor guilt#Survivor_syndrome'; mapping left to the maintainer
+- 947 Thevenard syndrome — redirect-unmapped: page redirects to non-seed page 'Hereditary sensory and autonomic neuropathy'; mapping left to the maintainer
+- 973 Truman Syndrome — redirect-unmapped: page redirects to non-seed page 'The Truman Show delusion'; mapping left to the maintainer
+- 1034 Wet lung syndrome in newborn — redirect-unmapped: page redirects to non-seed page 'Transient tachypnea of the newborn'; mapping left to the maintainer
+
+## Redirect sections missing from pinned revision (4)
+
+- 174 Cozen's test — redirect-section-missing: section 'Cozen's test' is absent from pinned revision 1375249945 of 'Tennis elbow'
+- 287 Forbes-Albright syndrome — redirect-section-missing: section 'Historical names' is absent from pinned revision 1368881486 of 'Hyperprolactinaemia'
+- 436 Intracranial hypertension syndrome — redirect-section-missing: section 'Signs and symptoms of raised intracranial pressure' is absent from pinned revision 1384638362 of 'Intracranial pressure'
+- 823 Rotch sign — redirect-section-missing: section 'Rotch sign' is absent from pinned revision 1386379606 of 'List of eponymous medical signs'
+
+## Redirects to a section of a seed, kept distinct (2)
+
+- 436 Intracranial hypertension syndrome — redirect-to-seed-section: the page redirects to a section of the seed 'Intracranial pressure' (enwiki:508735) but names a distinct concept, raised pressure, so it is not treated as a duplicate
+- 823 Rotch sign — redirect-to-seed-section: the page redirects to a section of the list seed 'List of eponymous medical signs' but names a distinct sign, so it is not treated as a duplicate
+
+## Duplicates (6)
+
+- 139 Chiari–Frommel syndrome — duplicate: page redirects to seed 'Hyperprolactinaemia' (enwiki:316759)
+- 287 Forbes-Albright syndrome — duplicate: page redirects to seed 'Hyperprolactinaemia' (enwiki:316759)
+- 480 Leukocyturia — duplicate: page redirects to seed 'Pyuria' (enwiki:2905734)
+- 790 Reiter’s syndrome — duplicate: page redirects to seed 'Reactive arthritis' (enwiki:2812465)
+- 808 Riley-Day Syndrome — duplicate: page redirects to seed 'Familial dysautonomia' (enwiki:1212545)
+- 936 Talk and die syndrome — duplicate: page redirects to seed 'Lucid interval' (enwiki:3122880)
+
+## Possible duplicates (9)
+
+- 23 Allopurinol hypersensitivity syndrome — possible-duplicate: Wikidata alias 'Allopurinol-induced DRESS syndrome' suggests overlap with DRESS
+- 75 Blind loop syndrome — possible-duplicate: overlaps with small intestinal bacterial overgrowth (not a seed)
+- 134 Cervicocranial syndrome — possible-duplicate: Wikidata lists 'Barre-Lieou syndrome' as an alias, overlapping with the seed Barré–Liéou syndrome
+- 183 Craniosynostosis–anal anomalies–porokeratosis syndrome — possible-duplicate: Wikidata lists 'CDAGS syndrome' as an alias, and the seed CDAGS syndrome is also called CAP syndrome
+- 529 Markle's sign — possible-duplicate: Heel tap sign (enwiki:46993679) is also called 'jar tenderness' and tests the same jarring pain
+- 727 Post-traumatic epilepsy — possible-duplicate: Post-traumatic seizure (enwiki:15841911)
+- 728 Post-traumatic seizure — possible-duplicate: Post-traumatic epilepsy (enwiki:15731985)
+- 815 Rochon-Duvigneaud's syndrome — possible-duplicate: Superior orbital fissure syndrome (seed #921) names the same condition
+- 921 Superior orbital fissure syndrome — possible-duplicate: Rochon-Duvigneaud's syndrome (seed #815) names the same condition
+
+## Out of scope (147)
+
+- 9 ACAM2000 — out-of-scope: a specific commercial smallpox vaccine product, not a disease, syndrome, symptom or sign
+- 14 Activated protein C resistance test — out-of-scope: a laboratory coagulation test, not a disease, syndrome, symptom or sign
+- 18 Air displacement plethysmography — out-of-scope: a laboratory method for measuring body composition, not a disease, syndrome, symptom or sign
+- 33 Antibiotic sensitivity testing — out-of-scope: a laboratory test of bacterial susceptibility to antibiotics, not a disease, syndrome, symptom or sign
+- 34 Anticoagulant — out-of-scope: a class of medications, not a disease, syndrome, symptom or sign
+- 60 Barrier nursing — out-of-scope: an infection-control nursing practice, not a disease, syndrome, symptom or sign
+- 71 Biodosimetry — out-of-scope: a measurement method for estimating radiation dose from biological response, not a disease, syndrome, symptom or sign
+- 73 Biomarkers of diabetes — out-of-scope: an overview page about measurable indicators of diabetes, not a single concept
+- 81 Body composition — out-of-scope: a body-measurement concept from physical fitness, not a disease, syndrome, symptom or sign
+- 82 Body fat percentage — out-of-scope: a body-measurement quantity, not a disease, syndrome, symptom or sign
+- 84 Body mass index — out-of-scope: an anthropometric index computed from weight and height, not a disease, syndrome, symptom or sign
+- 85 Body roundness index — out-of-scope: an anthropometric index, not a disease, syndrome, symptom or sign
+- 91 Brain microbiome — out-of-scope: a hypothesized population of microbes in the brain, a speculative biological concept rather than a disease, syndrome, symptom or sign
+- 113 Calibrated automated thrombogram — out-of-scope: a laboratory coagulation assay, not a disease, syndrome, symptom or sign
+- 127 Cell-mediated immunity — out-of-scope: a type of immune response, a physiological process rather than a disease, syndrome, symptom or sign
+- 128 CendR — out-of-scope: a protein sequence motif, not a disease, syndrome, symptom or sign
+- 138 Chest photofluorography — out-of-scope: a radiographic mass-screening technique for tuberculosis, not a disease, syndrome, symptom or sign
+- 140 Chief complaint — out-of-scope: a term for the main reason recorded in a medical history, not itself a disease, syndrome, symptom or sign
+- 144 Chronic diseases and cancers linked to infectious microbes — out-of-scope: an overview page of chronic diseases and cancers associated with microbes, not a single concept
+- 146 Circulating mitochondrial DNA — out-of-scope: a molecular biomarker (fragments of mitochondrial DNA in blood), not a disease, syndrome, symptom or sign
+- 147 Circulating tumor DNA — out-of-scope: a molecular biomarker (tumour DNA in blood), not a disease, syndrome, symptom or sign
+- 150 Climate change and infectious diseases — out-of-scope: an overview page on the relationship between climate change and infectious diseases, not a single concept
+- 187 Critical community size — out-of-scope: an epidemiological parameter for pathogen persistence in populations, not a disease, syndrome, symptom or sign
+- 193 Cryspovirus — out-of-scope: a genus of viruses, not a disease, syndrome, symptom or sign
+- 204 Defecation — out-of-scope: a normal biological process (passing faeces), not a disease, syndrome, symptom or sign
+- 214 Dietary inflammatory index — out-of-scope: a dietary scoring index, not a disease, syndrome, symptom or sign
+- 219 Discovery of disease-causing pathogens — out-of-scope: an overview page on the history of identifying pathogens, not a single concept
+- 221 Disease resistance — out-of-scope: a host capacity to resist disease, a biological trait rather than a disease, syndrome, symptom or sign
+- 222 Disease vector — out-of-scope: a living agent that carries pathogens between organisms, an epidemiological agent rather than a disease, syndrome, symptom or sign
+- 234 Effects of long-term benzodiazepine use — out-of-scope: an overview page of the effects of long-term use of a drug class, not a single concept
+- 246 Environmental factor — out-of-scope: a general ecological concept for anything that influences living organisms, not a disease, syndrome, symptom or sign
+- 248 Epidemiology of syphilis — out-of-scope: an overview page on the epidemiology of syphilis, not a single concept
+- 252 Euthymia (medicine) — out-of-scope: a normal, stable mood state, not a disease, syndrome, symptom or sign
+- 253 Evolution of Infectious Disease — out-of-scope: a 1993 book about the evolution of infectious disease, not a disease, syndrome, symptom or sign
+- 258 Experimental Bacteriology — out-of-scope: a bacteriology textbook, not a disease, syndrome, symptom or sign
+- 259 Extra-Terrestrial Exposure Law — out-of-scope: a former NASA regulation on extraterrestrial contamination, not a disease, syndrome, symptom or sign
+- 277 FLACC scale — out-of-scope: a pain assessment scale, not a disease, syndrome, symptom or sign
+- 286 Fomite — out-of-scope: an inanimate object that can carry infectious agents, an epidemiological vehicle rather than a disease, syndrome, symptom or sign
+- 296 Fumigatory box — out-of-scope: a historical medical device for fumigation, not a disease, syndrome, symptom or sign
+- 307 Germ theory denialism — out-of-scope: a pseudoscientific belief, not a disease, syndrome, symptom or sign
+- 308 Germ theory of disease — out-of-scope: a scientific theory of disease causation, not a disease, syndrome, symptom or sign
+- 310 Global Viral — out-of-scope: a non-profit organisation, not a disease, syndrome, symptom or sign
+- 311 Globalization and disease — out-of-scope: an overview page on globalization and the spread of disease, not a single concept
+- 314 Golovin–Sivtsev table — out-of-scope: a standardised eye chart for testing visual acuity, not a disease, syndrome, symptom or sign
+- 345 Heart rate variability — out-of-scope: a physiological variation in beat-to-beat interval used as a measurement, not a disease, syndrome, symptom or sign
+- 361 Heterogeneous condition — out-of-scope: a descriptor for conditions with several causes, used in classifying disease, not itself a disease, syndrome, symptom or sign
+- 368 History of ME/CFS — out-of-scope: a history article about ME/CFS, not a single clinical concept
+- 371 Holoendemic — out-of-scope: an epidemiological term for infection of nearly all of a population, not a disease, syndrome, symptom or sign
+- 374 Horizontal transmission — out-of-scope: a mode of pathogen transmission, not a disease, syndrome, symptom or sign
+- 382 Human Pathogens and Toxins Act — out-of-scope: a Canadian statute, not a disease, syndrome, symptom or sign
+- 383 Human-to-human transmission — out-of-scope: a mode of transmission, not a disease, syndrome, symptom or sign
+- 384 Human-to-primate transmission — out-of-scope: a mode of cross-species transmission, not a disease, syndrome, symptom or sign
+- 393 Hyperendemic — out-of-scope: an epidemiological term for a level of endemicity, not a disease, syndrome, symptom or sign
+- 401 Hypertension and the brain — out-of-scope: an overview page on hypertension and the brain, not a single concept
+- 418 Immunization during pregnancy — out-of-scope: a vaccination practice, not a disease, syndrome, symptom or sign
+- 419 Incubation period — out-of-scope: a time interval between exposure and symptom onset, not a disease, syndrome, symptom or sign
+- 422 Infection rate — out-of-scope: an epidemiological measure, not a disease, syndrome, symptom or sign
+- 424 Infectious causes of cancer — out-of-scope: an overview page on infections as causes of cancer, not a single concept
+- 425 Infectious Disease (Notification) Act 1889 — out-of-scope: a UK Act of Parliament, not a disease, syndrome, symptom or sign
+- 427 Infectious diseases (athletes) — out-of-scope: an overview page on infectious diseases in athletes, not a single concept
+- 428 Infectious diseases (medical specialty) — out-of-scope: a medical specialty, not a disease, syndrome, symptom or sign
+- 429 Infectious period — out-of-scope: an epidemiological time interval, not a disease, syndrome, symptom or sign
+- 432 International Sanitary Conferences — out-of-scope: a historical series of international meetings, not a disease, syndrome, symptom or sign
+- 435 Intracellular bacteria — out-of-scope: a class of microorganisms, not a disease, syndrome, symptom or sign
+- 442 Isolation ward — out-of-scope: a type of hospital ward, not a disease, syndrome, symptom or sign
+- 458 Kibong'oto Hospital — out-of-scope: a hospital and institute, not a disease, syndrome, symptom or sign
+- 460 Koch's postulates — out-of-scope: a set of scientific criteria for establishing that a microbe causes a disease, not a disease, syndrome, symptom or sign
+- 470 Latent period (epidemiology) — out-of-scope: an epidemiological time interval, not a disease, syndrome, symptom or sign
+- 484 Liebermeister's rule — out-of-scope: a clinical rule of thumb relating pulse rate to body temperature, not a disease, syndrome, symptom or sign
+- 493 List of eponymous medical signs — out-of-scope: a list article of eponymous medical signs, not a single concept
+- 494 List of infections of the central nervous system — out-of-scope: a list article of central nervous system infections, not a single concept
+- 495 List of infectious diseases — out-of-scope: a list article of infectious diseases, not a single concept
+- 496 List of infectious diseases causing flu-like syndrome — out-of-scope: a list article of infectious diseases causing flu-like syndrome, not a single concept
+- 497 List of medical symptoms — out-of-scope: a list article of medical symptoms, not a single concept
+- 498 List of reverse zoonotic diseases — out-of-scope: a list article of reverse zoonotic diseases, not a single concept
+- 499 List of syndromes — out-of-scope: a list article of syndromes, not a single concept
+- 500 List of zoonotic diseases — out-of-scope: a list article of zoonotic diseases, not a single concept
+- 502 Localized disease — out-of-scope: a descriptor for disease confined to one area, used to qualify diseases, not itself a disease, syndrome, symptom or sign
+- 532 Maxwell Finland Award — out-of-scope: a scientific award, not a disease, syndrome, symptom or sign
+- 540 Mean arterial pressure — out-of-scope: a calculated haemodynamic measure, not a disease, syndrome, symptom or sign
+- 541 Mean world syndrome — out-of-scope: a proposed cognitive bias from media exposure, not a medical disease, syndrome, symptom or sign
+- 542 MecA — out-of-scope: a bacterial gene, not a disease, syndrome, symptom or sign
+- 545 Medical geography — out-of-scope: an academic field studying the geography of health and disease, not a disease, syndrome, symptom or sign
+- 553 Microbial pathogenesis — out-of-scope: a field of microbiology, not a disease, syndrome, symptom or sign
+- 568 Molecular Koch's postulates — out-of-scope: a set of experimental criteria in microbiology, not a disease, syndrome, symptom or sign
+- 569 Molecular mimicry — out-of-scope: an immunological mechanism, not a disease, syndrome, symptom or sign
+- 582 Multifactorial disease — out-of-scope: a descriptor for diseases caused by many genes and environmental factors, not itself a disease, syndrome, symptom or sign
+- 583 Multimorbidity — out-of-scope: a descriptor for living with two or more chronic conditions, not a single disease, syndrome, symptom or sign
+- 593 Mycoplasma ovipneumoniae — out-of-scope: a bacterial species, not a disease, syndrome, symptom or sign
+- 606 Negative room pressure — out-of-scope: a hospital isolation technique, not a disease, syndrome, symptom or sign
+- 612 Newborn care and safety — out-of-scope: guidance on caring for newborns, not a disease, syndrome, symptom or sign
+- 613 Nice Guy syndrome — out-of-scope: an informal popular-psychology term redirecting to a page on the 'nice guy' stereotype, not a medical concept
+- 622 Non-invasive measurement of intracranial pressure — out-of-scope: a set of measurement methods, not a disease, syndrome, symptom or sign
+- 625 Notifiable disease — out-of-scope: a legal reporting category for diseases, not itself a disease, syndrome, symptom or sign
+- 632 Occupational safety and health — out-of-scope: a multidisciplinary field of workplace health and safety, not a disease, syndrome, symptom or sign
+- 652 Orthostatic vital signs — out-of-scope: a measurement procedure of vital signs lying and standing, not a disease, syndrome, symptom or sign
+- 657 Outline of infectious disease concepts — out-of-scope: an outline article of infectious disease concepts, not a single concept
+- 658 Overall hemostatic potential — out-of-scope: a laboratory coagulation assay, not a disease, syndrome, symptom or sign
+- 676 Partial thromboplastin time — out-of-scope: a laboratory blood clotting test, not a disease, syndrome, symptom or sign
+- 680 Pathogen — out-of-scope: an infectious agent or organism, not a disease, syndrome, symptom or sign
+- 681 Pathogen transmission — out-of-scope: the process of passing a pathogen between hosts, not a disease, syndrome, symptom or sign
+- 682 Pathognomonic — out-of-scope: a descriptive term for findings characteristic of one disease, not itself a disease, syndrome, symptom or sign
+- 694 Persister cells — out-of-scope: a population of dormant drug-tolerant microbial cells, not a disease, syndrome, symptom or sign
+- 695 Personalized medicine — out-of-scope: a medical model of tailored care, not a disease, syndrome, symptom or sign
+- 699 Phenotype (clinical medicine) — out-of-scope: a nosological term for the presentation of a disease, not itself a disease, syndrome, symptom or sign
+- 708 Plague Time: The New Germ Theory of Disease — out-of-scope: a non-fiction book, not a disease, syndrome, symptom or sign
+- 713 Pneumonia severity index — out-of-scope: a clinical prediction rule, not a disease, syndrome, symptom or sign
+- 740 Pratique — out-of-scope: a port health licence for ships, not a disease, syndrome, symptom or sign
+- 745 Premorbidity — out-of-scope: a term for the level of function before illness, not a disease, syndrome, symptom or sign
+- 748 Prevalence of rabies — out-of-scope: an epidemiological topic about the occurrence of rabies, not a single disease concept
+- 750 Prince Henry Hospital — out-of-scope: a former hospital, not a disease, syndrome, symptom or sign
+- 751 Prion — out-of-scope: an infectious agent (a misfolded protein), not a disease, syndrome, symptom or sign; the diseases it causes are separate concepts
+- 769 Puer aeternus — out-of-scope: a mythological and psychological archetype, not a disease, syndrome, symptom or sign
+- 772 Pulse pressure — out-of-scope: a calculated blood pressure measurement, not a disease, syndrome, symptom or sign
+- 791 Relapsing–remitting — out-of-scope: a descriptor of a disease course, not a disease, syndrome, symptom or sign
+- 793 Relative fat mass — out-of-scope: a formula for estimating body fat, not a disease, syndrome, symptom or sign
+- 798 Retirement syndrome — out-of-scope: a management term for executives' difficulty leaving power, not a clinical disease, syndrome, symptom or sign
+- 799 Reverse zoonosis — out-of-scope: a direction of pathogen transmission from humans to animals, not a single disease, syndrome, symptom or sign
+- 804 Rheum — out-of-scope: a normal mucous discharge from the eyes, nose or mouth, not a disease, syndrome, symptom or sign
+- 855 Sentinel surveillance — out-of-scope: a public health monitoring method, not a disease, syndrome, symptom or sign
+- 865 Sgarbossa's criteria — out-of-scope: a set of ECG diagnostic criteria, not a disease, syndrome, symptom or sign
+- 873 Short man syndrome — out-of-scope: a pejorative social stereotype about short men, not a clinical disease, syndrome, symptom or sign
+- 893 Smell as evidence of disease — out-of-scope: a diagnostic approach using body odour, not a disease, syndrome, symptom or sign
+- 902 Social distancing — out-of-scope: a public health intervention, not a disease, syndrome, symptom or sign
+- 907 Sporadic disease — out-of-scope: an epidemiological pattern of disease occurrence, not a single disease, syndrome, symptom or sign
+- 909 ST Genesia — out-of-scope: a commercial laboratory analyser, not a disease, syndrome, symptom or sign
+- 924 Superspreading event — out-of-scope: an epidemiological event of unusual spread, not a disease, syndrome, symptom or sign
+- 925 Surgical Infections — out-of-scope: a medical journal, not a disease, syndrome, symptom or sign
+- 932 Systemic disease — out-of-scope: a qualifier for diseases affecting the whole body, not a single disease, syndrome, symptom or sign
+- 935 T helper cell — out-of-scope: an immune cell type, not a disease, syndrome, symptom or sign
+- 946 The Great Imitator — out-of-scope: a descriptive phrase for diseases that mimic many others, not a single disease, syndrome, symptom or sign
+- 953 Thrombin generation assay — out-of-scope: a laboratory coagulation test, not a disease, syndrome, symptom or sign
+- 961 Toxic Shock: A Social History — out-of-scope: a book, not a disease, syndrome, symptom or sign
+- 964 Traube's space — out-of-scope: an anatomical area of the left lower chest used in examination, not itself a disease, syndrome, symptom or sign
+- 980 UK statutory notification system — out-of-scope: a public health reporting system, not a disease, syndrome, symptom or sign
+- 990 Urban survival syndrome — out-of-scope: a proposed legal defence, not a clinical disease, syndrome, symptom or sign
+- 996 Urination — out-of-scope: a normal bodily process, not a disease, syndrome, symptom or sign
+- 1000 Vaccine-preventable disease — out-of-scope: a grouping of infectious diseases by availability of a vaccine, not a single disease, syndrome, symptom or sign
+- 1012 VIP syndrome — out-of-scope: a term for a powerful patient's influence on professionals' decisions, not a clinical disease, syndrome, symptom or sign
+- 1014 Viral load — out-of-scope: a laboratory measure of virus quantity, not a disease, syndrome, symptom or sign
+- 1015 Virus — out-of-scope: an infectious agent, not a disease, syndrome, symptom or sign
+- 1024 Waist-to-height ratio — out-of-scope: a calculated body measurement ratio, not a disease, syndrome, symptom or sign
+- 1025 Waist–hip ratio — out-of-scope: a calculated body measurement ratio, not a disease, syndrome, symptom or sign
+- 1029 Weight and height percentile — out-of-scope: a growth-chart measurement, not a disease, syndrome, symptom or sign
+- 1033 Westmead Post-Traumatic Amnesia Scale — out-of-scope: a bedside assessment scale, not a disease, syndrome, symptom or sign
+- 1055 Wound licking — out-of-scope: an instinctive behaviour, not a disease, syndrome, symptom or sign
+- 1067 Yentl syndrome — out-of-scope: a term for gender disparity in the diagnosis of heart disease, not a disease, syndrome, symptom or sign
+
+## Ambiguous (219)
+
+- 2 Abadie's sign of exophthalmic goiter — ambiguous: the short form 'Abadie's sign' is shared with an unrelated sign of tabes dorsalis
+- 3 Abadie's sign of tabes dorsalis — ambiguous: the short form 'Abadie's sign' is shared with an eye sign of Graves disease
+- 6 Abdominal obesity — ambiguous: Wikidata treats it as a subclass of clinical sign while the article describes a condition
+- 8 Abdominojugular test — ambiguous: examination test page
+- 12 Acholia — ambiguous: WordNet synset acholia.n.01 defines it as absent bile secretion (a condition), not the stool sign
+- 15 Adenitis — ambiguous: umbrella term that is often narrowed to lymph-node inflammation
+- 17 AIDS dysmorphic syndrome — ambiguous: the source says its status as a syndrome is disputed
+- 19 Alder's sign — ambiguous: 'Klein's sign' is an eponym also used for unrelated findings
+- 37 Aortic Arch Syndrome — ambiguous: 'aortic arch syndrome' is also used generically for any occlusion of the aortic arch branches, not only Takayasu's arteritis
+- 41 Arthrogryposis–renal dysfunction–cholestasis syndrome — ambiguous: the pinned article calls it a 'cutaneous condition', which does not match its multisystem name
+- 44 Asperger syndrome — ambiguous: retired diagnostic category, now subsumed under autism spectrum disorder
+- 46 Asymptomatic — ambiguous: an adjective describing a state rather than a named condition
+- 61 Barré–Liéou syndrome — ambiguous: a historical diagnosis of doubtful standing in modern medicine
+- 72 Biomarker (medicine) — ambiguous: general measurement concept rather than a disease, syndrome, symptom or sign
+- 74 Biphasic disease — ambiguous: descriptive term covering both a clinical sense (two phases) and a pathology sense (two cell types)
+- 76 Blood-borne disease — ambiguous: umbrella category of diseases grouped by route, not a single disease
+- 87 Borsari's sign — ambiguous: the seed title spells the eponym 'Borsari' while the article and its physician use 'Borsieri'
+- 89 Bounding pulse — ambiguous: redirect merges a general descriptor (bounding pulse) into one specific sign (collapsing pulse)
+- 97 Brodie–Trendelenburg percussion test — ambiguous: an examination test rather than a disease, syndrome, symptom or sign
+- 100 Brown's vasomotor index — ambiguous: a test rather than a disease, syndrome, symptom or sign
+- 101 Brudziński's sign — ambiguous: the name covers three different signs
+- 108 Burnside–Butler syndrome — ambiguous: the source notes most carriers of the deletion have no clinical features, so the syndrome's boundaries are unsettled
+- 115 Canities subita — ambiguous: the source calls it an alleged condition
+- 123 Cat bite — ambiguous: an injury event rather than a disease, syndrome, symptom or sign
+- 131 Central nervous system syndrome — ambiguous: the name is generic and the redirect points to the whole acute radiation syndrome article, which does not describe this sub-syndrome in the pinned lead
+- 139 Chiari–Frommel syndrome — ambiguous: the redirect merges a specific postpartum syndrome into the general condition
+- 141 Child sexual abuse accommodation syndrome — ambiguous: proposed syndrome not accepted by conventional psychology
+- 151 Clinical endocannabinoid deficiency syndrome — ambiguous: a theory rather than an established clinical entity
+- 154 Coinfection — ambiguous: a general descriptive term rather than a single disease
+- 158 Comorbidity — ambiguous: a general epidemiological concept rather than a disease, syndrome, symptom or sign
+- 162 Concealed conduction — ambiguous: an electrophysiological phenomenon rather than a disease, syndrome, symptom or sign
+- 166 Contagious disease — ambiguous: umbrella qualifier for a class of diseases rather than a single disease
+- 170 Cortisol face — ambiguous: informal term described only within the cortisol hormone article
+- 174 Cozen's test — ambiguous: an examination test rather than a disease, syndrome, symptom or sign
+- 184 Crepitus — ambiguous: in lung examination 'crepitations' also refers to crackles, a different finding
+- 194 Cuboid syndrome — ambiguous: the source lists 'lateral plantar neuritis' as another name, which elsewhere names a nerve condition
+- 196 Cyanosis — ambiguous: the source notes that some medications can cause similar discoloration not due to low oxygen
+- 201 De Quervain tendinopathy — ambiguous: the eponym 'de Quervain' also names a thyroiditis
+- 205 Degenerative disease — ambiguous: umbrella category of diseases rather than a single disease
+- 212 Desjardins' point — ambiguous: names an anatomical point whose tenderness is the clinical sign
+- 213 Deviated gaze — ambiguous: very brief source text
+- 220 Disease — ambiguous: top-level umbrella term of the lexicon
+- 223 Diseases of abnormal polymerization — ambiguous: umbrella class of disorders rather than a single disease
+- 224 Disseminated disease — ambiguous: the term covers two distinct senses (cancer spread and infection spread)
+- 233 Edema — ambiguous: Wikidata types it as both a clinical sign and a symptom
+- 235 Einstein syndrome — ambiguous: a popular, non-clinical label coined outside medicine
+- 239 Emerging infectious disease — ambiguous: umbrella category rather than a single disease
+- 242 Endemic (epidemiology) — ambiguous: an epidemiological descriptor of disease distribution rather than a disease itself
+- 245 Environmental disease — ambiguous: umbrella class of diseases
+- 249 Epilepsy syndromes — ambiguous: the page is plural and partly a list of individual epilepsy syndromes
+- 251 Erondu–Cymet syndrome — ambiguous: the source calls the cause a translocation while the karyotype shows an inversion
+- 254 Exacerbation — ambiguous: a descriptor of disease course rather than a disease, syndrome, symptom or sign
+- 255 Excess ovarian androgen release syndrome — ambiguous: the source gives only an age range and calls it cutaneous
+- 261 Facies (medical) — ambiguous: general term covering many specific facies
+- 266 Fatigue — ambiguous: the word has a medical sense and an everyday sense of normal tiredness
+- 276 First arch syndrome — ambiguous: umbrella term for a group of syndromes
+- 279 Flammer syndrome — ambiguous: a recently described entity whose boundaries are not settled
+- 280 Flatulence — ambiguous: describes a normal bodily function that becomes a symptom only when excessive
+- 285 Follicular occlusion tetrad — ambiguous: names a group of disorders rather than one
+- 287 Forbes-Albright syndrome — ambiguous: historical eponym merged into the general condition
+- 291 Frank's sign — ambiguous: the source treats its diagnostic value as a hypothesis
+- 294 Freshers' flu — ambiguous: informal, non-clinical umbrella name
+- 298 Functional disorder — ambiguous: umbrella category
+- 300 Gaenslen's test — ambiguous: an examination test rather than a disease, syndrome, symptom or sign
+- 301 Galeazzi test — ambiguous: an examination test rather than a disease, syndrome, symptom or sign
+- 303 Gastrocutaneous syndrome — ambiguous: the source gives only skin features although the name implies gastric involvement
+- 305 Gastrointestinal syndrome — ambiguous: generic name
+- 312 Glycogenic hepatopathy — ambiguous: some sources distinguish Mauriac syndrome (with growth failure) from glycogenic hepatopathy alone
+- 315 Gonadotropin insensitivity — ambiguous: the page is essentially a two-item list
+- 316 Gonadotropin-releasing hormone insensitivity — ambiguous: the source equates receptor insensitivity with isolated GnRH deficiency, which is usually a broader category
+- 323 Greater trochanteric pain syndrome — ambiguous: the source equates the pain syndrome with bursitis, while the term is often used more broadly for lateral hip pain
+- 337 Hamburger sign — ambiguous: an informal history-taking manoeuvre rather than an examination sign
+- 344 Heart rate — ambiguous: a measured vital sign rather than an abnormal finding
+- 347 Heel spur syndrome — ambiguous: the name suggests a bony spur, while the redirect target is the soft-tissue disorder
+- 358 Hereditary hyperbilirubinemia — ambiguous: an umbrella term for several inherited disorders
+- 360 Heterochromia — ambiguous: may be a harmless trait or a sign of disease
+- 365 Hildreth's sign — ambiguous: the source describes an examination technique, while Wikidata types it as a clinical sign
+- 367 Hirschberg test — ambiguous: an examination test rather than a disease, syndrome, symptom or sign
+- 369 HIV/AIDS — ambiguous: the page title joins the infection and its late-stage syndrome
+- 375 Hospital-acquired infection — ambiguous: an umbrella term defined by setting rather than by a single disease
+- 381 Human body temperature — ambiguous: a normal physiological range and a vital sign rather than an abnormal finding
+- 388 Hutchinson's mask — ambiguous: the source calls it a medical sign while Wikidata types it as a symptom
+- 390 Hutchinson's sign — ambiguous: the page is a list of several unrelated signs with the same name
+- 395 Hypermobility (joints) — ambiguous: the term covers both a harmless trait and a symptomatic hypermobility syndrome
+- 400 Hypertension and brachydactyly syndrome — ambiguous: the source also equates it with 'brachydactyly type E', which occurs without high blood pressure
+- 403 Hypocalciuria — ambiguous: a laboratory finding rather than a bedside sign or symptom
+- 411 Hystrix-like ichthyosis–deafness syndrome — ambiguous: the pinned lead is one line
+- 413 Ideas and delusions of reference — ambiguous: the page joins a milder idea with a fixed delusion
+- 416 Iliotibial band syndrome — ambiguous: 'runner's knee' is also used for patellofemoral pain syndrome
+- 421 Infection — ambiguous: an umbrella term for a process that underlies many diseases rather than one disease
+- 423 Infection-induced anorexia — ambiguous: the source calls it both a behaviour and a sign
+- 426 Infectious disease-associated encephalopathy — ambiguous: an umbrella term covering several infection-related encephalopathies
+- 434 Intestinal infectious diseases — ambiguous: an umbrella term for many different diseases
+- 437 Intracranial pressure — ambiguous: a measured physiological quantity rather than an abnormal finding
+- 439 Irlen syndrome — ambiguous: a disputed condition whose existence is not accepted by mainstream medicine
+- 443 Jarisch–Herxheimer reaction — ambiguous: a treatment reaction rather than a disease, though Wikidata types it as a disease
+- 446 Joint effusion — ambiguous: Wikidata types it as both a clinical sign and a disease, so the kind is left unclassified
+- 450 Kehr's sign — ambiguous: named a sign but is a reported pain, i.e. a symptom
+- 451 Kelly's sign — ambiguous: an intraoperative identification sign rather than a sign of disease
+- 452 Kennel cough — ambiguous: a veterinary disease of dogs rather than a human condition
+- 455 Kernohan's notch — ambiguous: names both an anatomical lesion and the false-localising weakness it causes
+- 459 Kimmelstiel-Wilson syndrome — ambiguous: the eponym strictly names the nodular kidney lesion of diabetes, while the redirect target is the whole clinical disease
+- 464 Laboratory-acquired infection — ambiguous: an umbrella term defined by setting
+- 471 Leaky gut syndrome — ambiguous: a disputed condition not accepted by mainstream medicine
+- 476 Lesion — ambiguous: an umbrella term for any tissue abnormality rather than a specific disease or sign
+- 477 Lethal congenital contracture syndrome — ambiguous: the page title names the group, but the lead describes type 1
+- 485 Lifestyle disease — ambiguous: an umbrella term for many diseases grouped by cause
+- 487 Lima syndrome — ambiguous: a proposed psychological phenomenon rather than a recognised medical condition
+- 488 Limb girdle syndrome — ambiguous: an umbrella term for a pattern of weakness with many causes
+- 490 Linburg–Comstock variation — ambiguous: an anatomical variation that is only sometimes a disorder
+- 506 London syndrome — ambiguous: a proposed psychological phenomenon rather than a recognised medical condition
+- 508 Lower respiratory tract infection — ambiguous: an umbrella term, sometimes used as a synonym for pneumonia
+- 513 Lymphocytic pleocytosis — ambiguous: a laboratory finding rather than a bedside sign or symptom
+- 514 Lynch Syndrome — ambiguous: the source notes that 'Lynch syndrome' and 'HNPCC' are not always used for exactly the same group
+- 520 Magnan's sign — ambiguous: the source calls it a sign, though it is a reported sensation
+- 523 Malformative syndrome — ambiguous: an umbrella term for many syndromes
+- 528 Marinesco–Sjögren syndrome — ambiguous: the pinned lead is one line
+- 536 McBurney's point — ambiguous: an anatomical landmark whose tenderness is the clinical sign
+- 538 McCusick syndrome — ambiguous: probably a misspelt duplicate page for cartilage-hair hypoplasia (McKusick type metaphyseal chondrodysplasia)
+- 546 Medically unexplained physical symptoms — ambiguous: an umbrella term for symptoms grouped by lack of explanation
+- 552 Mickey Mouse sign — ambiguous: the nickname is used for several unrelated imaging signs
+- 555 Microdeletion syndrome — ambiguous: an umbrella term for many syndromes
+- 557 Mikulicz syndrome — ambiguous: 'Mikulicz syndrome' historically named gland swelling secondary to other diseases, distinct from 'Mikulicz disease'
+- 577 Mucorrhea — ambiguous: the term is used for rectal and cervical discharge in different specialties
+- 589 Murphy's sign — ambiguous: shares the eponym with Murphy's triad and Murphy's punch sign
+- 607 Neglected tropical diseases — ambiguous: an umbrella term defined by public-health neglect rather than a single disease
+- 608 Neonatal infection — ambiguous: an umbrella term for many infections grouped by age
+- 609 Neoplasm — ambiguous: an umbrella term for benign and malignant growths
+- 620 Non-communicable disease — ambiguous: an umbrella term defined by the absence of transmissibility
+- 621 Non-gonococcal urethritis — ambiguous: defined by exclusion and covering several causes
+- 623 Non-lifting sign — ambiguous: an endoscopic procedural finding rather than a bedside sign
+- 626 Nuclear sclerosis — ambiguous: a normal ageing change in veterinary use but an early cataract in human medicine
+- 627 Nutcracker syndrome — ambiguous: the pinned source calls it a 'coronary condition', which is incorrect
+- 629 Ober test — ambiguous: an examination test rather than a disease, syndrome, symptom or sign
+- 631 Occupational infectious disease — ambiguous: an umbrella term defined by setting rather than a single disease
+- 636 Oculofaciocardiodental syndrome — ambiguous: the pinned lead is one line
+- 644 Opportunistic infection — ambiguous: an umbrella term defined by host status rather than a single disease
+- 649 Organic brain syndrome — ambiguous: an obsolete umbrella term covering many conditions
+- 651 Organomegaly — ambiguous: an umbrella term for enlargement of any organ
+- 659 Overgrowth syndrome — ambiguous: an umbrella term for many syndromes
+- 660 Overlap syndrome — ambiguous: an umbrella term for many conditions
+- 667 Parinaud's oculoglandular syndrome — ambiguous: shares the eponym with the neurological Parinaud's syndrome
+- 668 Parinaud's syndrome — ambiguous: shares the eponym with Parinaud's oculoglandular syndrome
+- 671 Parks–Bielschowsky three-step test — ambiguous: an examination test rather than a disease, syndrome, symptom or sign
+- 673 Parrot's sign — ambiguous: the name covers at least two unrelated signs
+- 679 Patellofemoral pain syndrome — ambiguous: shares the nickname 'runner's knee' with iliotibial band syndrome
+- 691 Persistent adrenarche syndrome — ambiguous: the pinned lead gives almost no clinical features
+- 702 Phrenitis — ambiguous: an obsolete historical diagnosis without a modern equivalent
+- 703 Picardy sweat — ambiguous: a historical disease whose cause is unknown
+- 706 Piriformis syndrome — ambiguous: the source notes the condition's existence as a distinct entity is debated ('believed to result')
+- 715 Polio-like syndrome — ambiguous: a descriptive umbrella term rather than one disease
+- 720 Post-acute infection syndrome — ambiguous: an umbrella term for many conditions
+- 724 Post-nasal drip — ambiguous: may be described as a symptom or as a syndrome (upper airway cough syndrome)
+- 732 Postdrome — ambiguous: a general term for a phase of illness rather than a specific symptom
+- 733 Posterior cerebral artery syndrome — ambiguous: Wikidata's item is the infarction
+- 734 Postpartum infections — ambiguous: an umbrella term for several infections
+- 739 Potter sequence — ambiguous: 'Potter syndrome' strictly names the form caused by absent kidneys, while 'Potter sequence' covers all causes of low fluid
+- 746 Presumed ocular histoplasmosis syndrome — ambiguous: the link to histoplasmosis is presumed rather than proven
+- 749 Primary aldosteronism — ambiguous: 'Conn's syndrome' strictly refers to the adenoma form
+- 753 Prodrome — ambiguous: names both early symptoms and the time period
+- 754 Progressive disease — ambiguous: umbrella term describing a disease course rather than one disease
+- 765 Pseudohypoxia — ambiguous: a biochemical state rather than a clinical disease, syndrome, symptom or sign
+- 768 Puddle sign — ambiguous: described as an examination manoeuvre though named and classed as a sign
+- 785 Raymond–Céstan syndrome — ambiguous: Wikidata aliases 'Céstan–Chenais syndrome', a related but different brainstem syndrome
+- 788 Rebecca syndrome — ambiguous: a popular label rather than a recognised diagnosis
+- 794 Renfield syndrome — ambiguous: not a recognised diagnosis
+- 796 Respiratory tract infection — ambiguous: an umbrella term for many infections
+- 816 Roemheld syndrome — ambiguous: Wikidata marks it an obsolete medical term while the article describes renewed interest
+- 839 Sapronosis — ambiguous: an umbrella term for a group of infectious diseases defined by their environmental source
+- 841 Savant syndrome — ambiguous: described as a phenomenon rather than a disorder
+- 845 Schwartz–Jampel syndrome — ambiguous: the Wikidata item is type 1
+- 846 Schwatrz's test — ambiguous: a bedside examination test rather than a disease, syndrome, symptom or sign
+- 857 Sepsis-associated encephalopathy — ambiguous: an umbrella term for several neurological complications
+- 863 Severe cutaneous adverse reactions — ambiguous: an umbrella term for five syndromes
+- 864 Sexual anomalies — ambiguous: redirects to a disambiguation page with several senses
+- 866 Shaken baby syndrome — ambiguous: the article describes the diagnosis as controversial
+- 874 Short rib–polydactyly syndrome — ambiguous: an umbrella term for several related types
+- 878 Sick building syndrome — ambiguous: the article equates it with building-related illness and idiopathic environmental intolerance, which are usually distinguished
+- 882 Signs and symptoms — ambiguous: an umbrella term covering both symptoms and signs
+- 887 Skeeter syndrome — ambiguous: the article gives 'papular urticaria' as another name, which usually denotes a different reaction
+- 888 Skin discoloration — ambiguous: the article is a stub limited to treatment side effects
+- 892 Small Penis Syndrome — ambiguous: a popular label rather than a formal diagnosis
+- 897 Smooth muscle tumour — ambiguous: an umbrella term for benign and malignant tumours
+- 901 Sniffle — ambiguous: an everyday action that may accompany a runny nose rather than a clinical finding
+- 905 Split hand syndrome — ambiguous: the seed is listed under both signs and syndromes
+- 914 Straight leg raise — ambiguous: a bedside examination test rather than a disease, syndrome, symptom or sign
+- 915 Streff syndrome — ambiguous: not widely recognised as a distinct diagnosis
+- 918 Sulcus sign — ambiguous: described as an examination test though named and classed as a sign
+- 926 Survivor syndrome — ambiguous: the article also uses 'survivor syndrome' as a synonym for survivor guilt, a narrower feeling
+- 927 Swinging light test — ambiguous: an examination test rather than a disease, syndrome, symptom or sign
+- 929 Syndrome — ambiguous: umbrella term for the whole class
+- 937 TAN syndrome — ambiguous: a proposed eponym-acronym with limited recognition
+- 940 Tauopathy — ambiguous: an umbrella term for many diseases
+- 942 Tension myositis syndrome — ambiguous: Wikidata classes it as a questionable disease (P31) and it is not a recognised diagnosis
+- 944 Testicular dysgenesis syndrome — ambiguous: the article describes it as a hypothesised condition
+- 947 Thevenard syndrome — ambiguous: the redirect target covers the whole HSAN group
+- 948 Thompson test — ambiguous: an examination test rather than a disease, syndrome, symptom or sign
+- 956 Tooth and nail syndrome — ambiguous: the article also lists 'mucoepithelial dysplasia syndrome', a different disorder
+- 969 Tropical disease — ambiguous: an umbrella term for a group of diseases defined by geography
+- 981 Ulnar claw — ambiguous: 'claw hand' can also describe clawing from other causes
+- 982 Ulnar neuropathy at the elbow — ambiguous: the Wikidata item covers ulnar nerve entrapment at any site
+- 985 Uner Tan syndrome — ambiguous: described as alleged and not a recognised diagnosis
+- 986 Unterberger test — ambiguous: an examination test rather than a disease, syndrome, symptom or sign
+- 989 Upper respiratory tract infection — ambiguous: an umbrella term for several infections
+- 1005 Vanishing bile duct syndrome — ambiguous: an umbrella for several diseases
+- 1016 Visual acuity — ambiguous: a measured visual function rather than a disease, syndrome, symptom or sign
+- 1018 Vital signs — ambiguous: an umbrella term for several measurements
+- 1022 Waddell's signs — ambiguous: their historical use to detect malingering is discredited
+- 1028 Warkany syndrome 1 — ambiguous: an obsolete diagnosis
+- 1032 Werewolf syndrome in dogs — ambiguous: a veterinary disease
+- 1039 Wilson's temperature syndrome — ambiguous: not a recognised medical condition
+- 1045 Wobbly hedgehog syndrome — ambiguous: a veterinary disease
+- 1052 Work-related musculoskeletal disorders — ambiguous: an umbrella term for many conditions
+- 1058 Xanthochromia — ambiguous: a laboratory finding in spinal fluid
+- 1068 Young–Madders syndrome — ambiguous: the article attributes it to defective chromosomes while Wikidata describes chromosomally normal cases
+- 1074 Zechi-Ceide syndrome — ambiguous: the article spells the eponym 'Zeichi-Ceide' while the title uses 'Zechi-Ceide'
+- 1076 Zimmermann–Laband syndrome — ambiguous: the name covers two genetically distinct types
+- 1077 Zoom fatigue — ambiguous: a popular term rather than a recognised clinical condition
+- 1078 Zoonosis — ambiguous: an umbrella term for a group of infectious diseases defined by their animal source
+
+## Kind left unclassified (no source support, or sources conflict) (340)
+
+- 4 Abdominal aura — kind-unclassified: listed under medical signs, while Wikidata describes it as a symptom and the article calls it an aura
+- 6 Abdominal obesity — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 7 Abdominal reflex — kind-unclassified: a normal reflex used in examination
+- 8 Abdominojugular test — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 10 Acanthosis nigricans — kind-unclassified: the article calls it a cutaneous finding and WordNet a skin disease
+- 11 Accommodative insufficiency — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 13 Acrocyanosis — kind-unclassified: sources call it both a phenomenon and a vascular disease
+- 15 Adenitis — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 26 Amaurosis fugax — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 27 Ampola syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 29 Anasarca — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 43 Ashman phenomenon — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 45 Astasia-abasia — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 46 Asymptomatic — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 47 Asymptomatic carrier — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 48 At risk mental state — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 50 Auditory hallucination — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 51 Auditory processing disorder — kind-unclassified: the sources call it a neurodevelopmental disorder
+- 64 Beau's lines — kind-unclassified: the article calls it a nail condition
+- 69 Bilateral hilar lymphadenopathy — kind-unclassified: the source calls it a radiographic term, not a sign or disease
+- 72 Biomarker (medicine) — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 76 Blood-borne disease — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 83 Body fat redistribution syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 89 Bounding pulse — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 93 Breast mass — kind-unclassified: the sources describe a finding without calling it a sign or symptom
+- 97 Brodie–Trendelenburg percussion test — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 99 Bronchorrhea — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 100 Brown's vasomotor index — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 102 Bruise — kind-unclassified: Wikidata says 'symptom or sign', which does not settle the kind
+- 105 Buphthalmos — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 112 Café au lait spot — kind-unclassified: the sources call it a birthmark
+- 115 Canities subita — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 123 Cat bite — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 130 Central facial palsy — kind-unclassified: the source says 'symptom or finding', so the kind is unsettled
+- 131 Central nervous system syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 132 Cervical lymphadenopathy — kind-unclassified: Wikidata says 'symptom or sign', which does not settle the kind
+- 136 Chancre — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 137 Cherry-red spot — kind-unclassified: the source calls it a finding without naming it a sign
+- 139 Chiari–Frommel syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 141 Child sexual abuse accommodation syndrome — kind-unclassified: named a syndrome by its proposer only
+- 151 Clinical endocannabinoid deficiency syndrome — kind-unclassified: named a syndrome only by proposers
+- 154 Coinfection — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 158 Comorbidity — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 162 Concealed conduction — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 168 Cornea verticillata — kind-unclassified: the source calls it a condition
+- 169 Coronary steal — kind-unclassified: the source calls it a phenomenon
+- 170 Cortisol face — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 171 Cotton fever — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 174 Cozen's test — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 184 Crepitus — kind-unclassified: the sources call it a finding
+- 196 Cyanosis — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 209 Derailment (thought disorder) — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 212 Desjardins' point — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 213 Deviated gaze — kind-unclassified: the source calls it a symptom, though it is observed on examination
+- 224 Disseminated disease — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 228 Drooling — kind-unclassified: the sources do not class it as a symptom or sign
+- 233 Edema — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 235 Einstein syndrome — kind-unclassified: named a syndrome only colloquially
+- 236 Elfin facies — kind-unclassified: the sources call it a facies, a pattern of features rather than a named sign
+- 242 Endemic (epidemiology) — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 250 Episodic dyscontrol syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 254 Exacerbation — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 256 Exercise intolerance — kind-unclassified: the source says it is not a disease or syndrome and does not class it as a symptom or sign
+- 273 Fever of unknown origin — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 280 Flatulence — kind-unclassified: Wikidata says 'symptom or sign'
+- 285 Follicular occlusion tetrad — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 287 Forbes-Albright syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 293 Fremitus — kind-unclassified: the source describes a physical finding without calling it a sign
+- 294 Freshers' flu — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 298 Functional disorder — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 300 Gaenslen's test — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 301 Galeazzi test — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 305 Gastrointestinal syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 312 Glycogenic hepatopathy — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 315 Gonadotropin insensitivity — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 332 Habit-tic deformity — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 344 Heart rate — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 346 Heel pad syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 350 Hematemesis — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 351 Hematochezia — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 353 Hemihyperplasia–multiple lipomatosis syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 355 Hemoglobin Lepore syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 358 Hereditary hyperbilirubinemia — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 360 Heterochromia — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 363 High-arched palate — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 365 Hildreth's sign — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 367 Hirschberg test — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 375 Hospital-acquired infection — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 376 Hospital-acquired pneumonia — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 381 Human body temperature — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 386 Hurler–Scheie syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 390 Hutchinson's sign — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 395 Hypermobility (joints) — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 397 Hyperpigmentation — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 403 Hypocalciuria — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 413 Ideas and delusions of reference — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 415 Iliocostal friction syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 416 Iliotibial band syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 421 Infection — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 423 Infection-induced anorexia — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 426 Infectious disease-associated encephalopathy — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 434 Intestinal infectious diseases — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 436 Intracranial hypertension syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 437 Intracranial pressure — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 439 Irlen syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 446 Joint effusion — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 452 Kennel cough — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 455 Kernohan's notch — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 463 Kufor–Rakeb syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 464 Laboratory-acquired infection — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 466 Lance–Adams syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 471 Leaky gut syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 473 Lenz–Majewski syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 475 Leschke syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 476 Lesion — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 477 Lethal congenital contracture syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 478 Lethargy — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 485 Lifestyle disease — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 486 Lilliputian hallucination — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 487 Lima syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 488 Limb girdle syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 490 Linburg–Comstock variation — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 492 Linea nigra — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 503 Locked-in syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 506 London syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 508 Lower respiratory tract infection — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 510 Lucey–Driscoll syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 512 Lymphedema–distichiasis syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 518 Macropsia — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 521 Majeed syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 522 Majewski's polydactyly syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 526 Malnutrition–inflammation complex — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 527 Malpuech facial clefting syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 528 Marinesco–Sjögren syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 530 Mast cell activation syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 533 Mayer–Rokitansky–Küster–Hauser syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 534 May–White syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 536 McBurney's point — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 537 McCune–Albright syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 538 McCusick syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 543 Meconium aspiration syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 546 Medically unexplained physical symptoms — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 549 MELAS syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 558 Mild androgen insensitivity syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 559 Milk-alkali syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 563 Milwaukee shoulder syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 565 Mitral facies — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 567 Mittelschmerz — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 570 Monofixation syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 577 Mucorrhea — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 579 Muenke syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 585 Multiple evanescent white dot syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 586 Multiple organ dysfunction syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 595 Mycotic aneurysm — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 600 Myomatous erythrocytosis syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 601 Naegeli–Franceschetti–Jadassohn syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 602 Nakajo syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 604 Naxos syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 607 Neglected tropical diseases — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 608 Neonatal infection — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 609 Neoplasm — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 610 Neutrophil immunodeficiency syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 614 Nicolaides–Baraitser syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 615 Nicolau–Balus syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 616 Night eating syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 620 Non-communicable disease — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 621 Non-gonococcal urethritis — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 623 Non-lifting sign — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 626 Nuclear sclerosis — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 627 Nutcracker syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 628 Nystagmus — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 629 Ober test — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 631 Occupational infectious disease — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 633 Ocular dysmetria — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 636 Oculofaciocardiodental syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 637 Oculomucocutaneous syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 638 Odonto-tricho-ungual-digital-palmar syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 640 Ohtahara syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 641 Oliver–McFarlane syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 642 One and a half syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 644 Opportunistic infection — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 646 Oral allergy syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 647 Oral mite anaphylaxis — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 649 Organic brain syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 654 Osteopenia — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 665 PAPA syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 667 Parinaud's oculoglandular syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 668 Parinaud's syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 669 Paris-Trousseau syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 670 Parkes Weber syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 671 Parks–Bielschowsky three-step test — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 675 Partial androgen insensitivity syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 678 Patellar subluxation syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 679 Patellofemoral pain syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 686 Pendred syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 688 Penile artery shunt syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 691 Persistent adrenarche syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 693 Persistent postural-perceptual dizziness — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 696 Phantom eye syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 697 Phantom limb — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 700 Phlegmon — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 701 Photopsia — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 702 Phrenitis — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 704 Pigment dispersion syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 705 Pigmented hairy epidermal nevus syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 706 Piriformis syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 709 Plasma cell granuloma — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 714 Polar T3 syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 716 Popliteal artery entrapment syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 717 Pork–cat syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 718 Portsmouth sign — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 724 Post-nasal drip — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 725 Post-thrombotic syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 726 Post-traumatic amnesia — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 727 Post-traumatic epilepsy — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 728 Post-traumatic seizure — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 729 Post-vasectomy pain syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 730 Post-void shudder — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 731 Postcholecystectomy syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 732 Postdrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 733 Posterior cerebral artery syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 736 Postpericardiotomy syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 737 Postural orthostatic tachycardia syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 739 Potter sequence — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 741 Prayer callus — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 742 Precordial catch syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 753 Prodrome — kind-unclassified: WordNet places it under symptom while Wikidata classes it as a disease stage
+- 754 Progressive disease — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 756 Pronator teres syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 758 Prostate hypoplasia — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 762 Pseudo-Cushing's syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 763 Pseudoathetosis — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 764 Pseudoexfoliation syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 765 Pseudohypoxia — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 770 Pulmonary regurgitation — kind-unclassified: Wikidata gives both 'type of disease' (P31) and 'clinical sign' (P279), and the article calls marked regurgitation a sign
+- 773 Punding — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 775 Purple urine bag syndrome — kind-unclassified: the article calls it a syndrome while Wikidata classes it as a clinical sign (P31)
+- 776 Purpura — kind-unclassified: Wikidata gives both 'type of disease' and 'symptom or sign' (P31) and WordNet calls it a blood disease
+- 777 Pyuria — kind-unclassified: Wikidata gives 'symptom', 'type of disease' and 'symptom or sign' (P31) and the article calls it a sign
+- 782 Radial tunnel syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 785 Raymond–Céstan syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 788 Rebecca syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 789 Refeeding syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 803 Reynolds syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 805 Rhinolith — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 806 Riddoch syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 815 Rochon-Duvigneaud's syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 818 Rose spots — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 823 Rotch sign — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 831 SACRAL syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 837 Saphena varix — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 839 Sapronosis — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 846 Schwatrz's test — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 850 Second-impact syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 852 Seidel sign — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 853 Self-disorder — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 854 Sensory ataxia — kind-unclassified: the article calls it both a symptom and a sign
+- 856 Sepsis — kind-unclassified: Wikidata gives 'critical illness', 'symptom' and 'symptom or sign' (P31) while the article calls it a condition
+- 861 Serum sickness-like reaction — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 863 Severe cutaneous adverse reactions — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 864 Sexual anomalies — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 866 Shaken baby syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 868 Shell nail syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 871 Short anagen syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 878 Sick building syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 880 Sickness behavior — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 881 SIDS — kind-unclassified: Wikidata gives both 'type of disease' and 'symptom or sign' (P31)
+- 882 Signs and symptoms — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 885 Situs ambiguus — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 887 Skeeter syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 888 Skin discoloration — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 890 Sleep inversion — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 892 Small Penis Syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 897 Smooth muscle tumour — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 898 Snapping hip syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 899 Snapping scapula syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 901 Sniffle — kind-unclassified: Wikidata gives both 'clinical sign' and 'therapy' (P31)
+- 903 Sopite syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 905 Split hand syndrome — kind-unclassified: the article calls it a syndrome while Wikidata gives 'type of disease'
+- 911 Steroid dementia syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 913 Stimson line — kind-unclassified: the article calls it a symptom while Wikidata classes it as a clinical sign (P31)
+- 914 Straight leg raise — kind-unclassified: Wikidata gives both 'physical examination' and 'clinical sign' (P31)
+- 915 Streff syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 916 Subclinical infection — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 917 Subcutaneous emphysema — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 918 Sulcus sign — kind-unclassified: the article calls it a test while Wikidata classes it as a clinical sign (P31)
+- 919 Sulfonamide hypersensitivity syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 920 Summer penile syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 921 Superior orbital fissure syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 922 Supernumerary nipples–uropathies–Becker's nevus syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 923 Supernumerary phantom limb — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 926 Survivor syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 927 Swinging light test — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 928 Swirl sign — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 929 Syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 933 Systemic inflammatory response syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 938 Tardive dyskinesia — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 941 Tea and toast syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 942 Tension myositis syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 947 Thevenard syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 948 Thompson test — kind-unclassified: Wikidata gives 'clinical sign' (P31) and 'medical test' (P279)
+- 950 Thoracic insufficiency syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 954 Thrombocytopenia — kind-unclassified: Wikidata gives 'rare disease', 'type of disease' and 'symptom or sign' (P31) and also 'clinical sign' (P279)
+- 955 Tinnitus — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 957 Torticollis — kind-unclassified: Wikidata gives 'type of disease', 'symptom' and 'symptom or sign' (P31)
+- 967 Trisomy 8 — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 970 Tropical splenomegaly syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 971 Tropical ulcer — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 972 Trousseau sign of malignancy — kind-unclassified: the article calls it a sign and a syndrome while Wikidata gives 'type of disease' (P31)
+- 973 Truman Syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 977 Twiddler's syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 981 Ulnar claw — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 982 Ulnar neuropathy at the elbow — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 985 Uner Tan syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 986 Unterberger test — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 989 Upper respiratory tract infection — kind-unclassified: Wikidata gives both 'type of disease' and 'symptom or sign' (P31)
+- 994 Urethritis — kind-unclassified: Wikidata gives both 'type of disease' and 'symptom or sign' (P31)
+- 995 Urinary tract infection — kind-unclassified: Wikidata gives both 'type of disease' and 'symptom or sign' (P31)
+- 1002 Valentino's syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 1003 Valgus deformity — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 1004 Van Wyk and Grumbach syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 1005 Vanishing bile duct syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 1006 Varus deformity — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 1009 Vestibulocerebellar syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 1011 Villaret's syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 1016 Visual acuity — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 1017 Visual hallucination — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 1019 Vitreous touch syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 1027 Waltman Walter syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 1028 Warkany syndrome 1 — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 1032 Werewolf syndrome in dogs — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 1034 Wet lung syndrome in newborn — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 1039 Wilson's temperature syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 1045 Wobbly hedgehog syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 1052 Work-related musculoskeletal disorders — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 1071 Yunnan sudden death syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 1073 Zamzam–Sheriff–Phillips syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 1075 Zieve's syndrome — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 1077 Zoom fatigue — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+- 1078 Zoonosis — kind-unclassified: the linked sources do not explicitly class this page as a disease, syndrome, symptom or sign
+
+## Wikidata errors (claim not used) (241)
+
+- 1 Aaron's sign — wikidata-error: item Q4661777 lists 'McBurney's sign' as an alias, but that is a distinct sign
+- 12 Acholia — wikidata-error: item Q8187550 classes acholia as a biliary tract disease, while the article calls it a sign
+- 15 Adenitis — wikidata-error: item lists endocrinology as the field (P1995), which does not fit an inflammation of lymph nodes
+- 23 Allopurinol hypersensitivity syndrome — wikidata-error: item Q4733137 is a subclass of DRESS (P279), but the article says the syndrome may also be a rash, SJS or TEN
+- 28 Amsler sign — wikidata-error: item Q4748797 describes the sign as a 'medical diagnostic method'
+- 29 Anasarca — wikidata-error: item Q486485 is typed as a disease (P31) though sources describe a form of edema
+- 42 Ascending cholangitis — wikidata-error: item Q603644 is also typed as 'symptom or sign' (P31), which does not fit a disease
+- 43 Ashman phenomenon — wikidata-error: item Q4805668 is a subclass of heart arrhythmia (P279), but the article describes a conduction aberrancy pattern
+- 46 Asymptomatic — wikidata-error: item Q1707292 is typed as a symptom (P31), which contradicts its meaning
+- 47 Asymptomatic carrier — wikidata-error: item Q1549382 is a subclass of 'vector' (P279), but a carrier is not a disease vector in the usual sense
+- 48 At risk mental state — wikidata-error: item Q4812457 is a subclass of mental disorder (P279), but the source describes a risk state, not a disorder
+- 56 Autoimmune polyendocrine syndrome type 3 — wikidata-error: item Q19595987 lists the plural umbrella 'Autoimmune polyendocrine syndromes' as an alias
+- 58 Ballance's sign — wikidata-error: item Q4851424 is described as a 'medical diagnostic method' though typed as a clinical sign
+- 76 Blood-borne disease — wikidata-error: item Q4927522 lists 'blood-borne pathogen' as an alias, but a pathogen is not a disease
+- 80 Boas' sign — wikidata-error: item Q4931474 describes the sign as 'pain below the right shoulder', which does not match the article
+- 84 Body mass index — wikidata-error: item Q131191 is typed as a clinical sign (P31), but BMI is a computed measure
+- 93 Breast mass — wikidata-error: item Q953865 lists 'lumpy breast' as an alias, which describes diffuse texture rather than a discrete mass
+- 99 Bronchorrhea — wikidata-error: item Q600754 is a subclass of lower respiratory tract disease (P279), but the source describes a symptom-level finding
+- 102 Bruise — wikidata-error: item Q574491 is a subclass of blunt trauma (P279)
+- 104 Budin's sign — wikidata-error: item Q3483659 is typed as a medical test (P31), while the article calls it a clinical sign
+- 105 Buphthalmos — wikidata-error: item Q4305015 is typed as a disease (P31) though the source treats it as a sign of glaucoma
+- 110 Buschke–Ollendorff syndrome — wikidata-error: item Q5001316 is a subclass of osteopetrosis (P279), whereas the bone lesions are usually described as osteopoikilosis
+- 117 Caput medusae — wikidata-error: item Q1035226 lists 'Cruveilhier–Baumgarten syndrome' as an alias and types the sign as a disease (P31)
+- 123 Cat bite — wikidata-error: item Q30325669 is typed as a disease (P31) and as a subclass of cat behavior (P279)
+- 125 Catheter-associated urinary tract infection — wikidata-error: item Q28135201 lists 'Catheter-Related Infection' as an alias, which also covers bloodstream infections from vascular catheters
+- 129 Central centrifugal cicatricial alopecia — wikidata-error: item Q5062079 is a subclass of 'bald head' (P279), a description of appearance rather than a disease class
+- 136 Chancre — wikidata-error: item Q31789 carries aliases such as 'primary genital syphilis' that name the disease stage, not the ulcer
+- 152 Clonus — wikidata-error: item Q1424895 lists 'myoclonus' as an alias, but myoclonus is a distinct phenomenon
+- 157 Community-acquired pneumonia — wikidata-error: item Q460030 is typed as 'symptom or sign' (P31), which does not fit a pneumonia
+- 158 Comorbidity — wikidata-error: item Q1414874 is a subclass of multimorbidity (P279), whereas the two are usually distinguished
+- 167 Cord colitis syndrome — wikidata-error: item Q16951605 gives Bradyrhizobium enterica as cause (P828), while the source says causation is not confirmed
+- 169 Coronary steal — wikidata-error: item Q5172195 is typed as a cause of death (P31) and a subclass of coronary artery disease (P279)
+- 173 Cowpox — wikidata-error: item Q1066011 lists 'Vaccinia' and 'yaba' as aliases and its description names Vaccinia virus as cause
+- 188 Crouzonodermoskeletal syndrome — wikidata-error: item Q5189052 is a subclass of Crouzon syndrome and acanthosis nigricans (P279)
+- 192 Cryoglobulinemia — wikidata-error: item Q1790371 is typed as 'symptom or sign' and as a subclass of type IV hypersensitivity
+- 208 Dental abscess — wikidata-error: item Q2710164 is also typed as 'symptom or sign' (P31)
+- 209 Derailment (thought disorder) — wikidata-error: item Q5261301 is typed as a disease (P31)
+- 211 Desiderosmia — wikidata-error: item Q131726971 is a subclass of 'desire' (P279), a general psychological concept rather than a clinical class
+- 217 Diogenes syndrome — wikidata-error: item Q1226826 lists 'self-neglect' and 'hoarding' as aliases and makes it a subclass of compulsive hoarding (P279)
+- 218 Discitis — wikidata-error: item Q2312030 is a subclass of arthritis (P279), which does not fit a disc-space infection
+- 227 Dopamine dysregulation syndrome — wikidata-error: item Q3508719 is a subclass of Parkinson's disease (P279)
+- 228 Drooling — wikidata-error: item Q18206654 is a subclass of saliva secretion (P279), a normal process
+- 229 Duane-radial ray syndrome — wikidata-error: item Q2017218 is a subclass of Duane retraction syndrome (P279)
+- 241 Encephalitis — wikidata-error: item Q199615 is also typed as 'symptom or sign' (P31) and as a subclass of neurological symptom (P279)
+- 243 Endogenous infection — wikidata-error: item Q5712478 is a subclass of opportunistic infection (P279), which is not always true
+- 249 Epilepsy syndromes — wikidata-error: item Q55785625 is also typed as a list article (P31)
+- 256 Exercise intolerance — wikidata-error: item Q5420062 is typed as a clinical sign and 'abnormally low value' (P31)
+- 260 Extrapyramidal symptoms — wikidata-error: item Q1385411 types the symptoms as a disease (P31) and lists 'extrapyramidal disorder' as an alias
+- 262 Faget sign — wikidata-error: item Q5429401 is a subclass of 'medical diagnosis' (P279) and lists beta blockers as a cause
+- 265 Fanconi syndrome — wikidata-error: item Q1179460 lists 'Infantile nephropathic cystinosis' as an alias, which is one cause, not a synonym
+- 268 Femur fibula ulna syndrome — wikidata-error: item Q5442945 lists 'PFFD' as an alias, though the source says it is disputed whether the two are the same
+- 269 Fetal alcohol spectrum disorder — wikidata-error: item Q17002116 lists 'Fetal alcohol syndrome' as an alias, but that is the most severe form within the spectrum
+- 270 Fetal hydantoin syndrome — wikidata-error: item Q5445904 is a subclass of 'pregnancy category' (P279), a drug labelling scheme
+- 271 Fetal warfarin syndrome — wikidata-error: item Q2549256 is a subclass of 'pregnancy category' and 'drugs in pregnancy' (P279), which are not disease classes
+- 273 Fever of unknown origin — wikidata-error: item Q1405631 is typed as both a symptom and a disease (P31)
+- 275 Fibromyalgia syndrome — wikidata-error: item Q540571 is a subclass of myositis (P279), but fibromyalgia is not an inflammatory muscle disease
+- 281 Floppy eyelid syndrome — wikidata-error: item Q25303958 is a subclass of ectropion (P279)
+- 284 Follicle-stimulating hormone insensitivity — wikidata-error: item Q5464647 lists 'FSH' (the hormone) as an alias
+- 285 Follicular occlusion tetrad — wikidata-error: the seed's linked item Q34495014 is a scholarly article, not the concept
+- 293 Fremitus — wikidata-error: item Q594315 is a subclass of auscultation (P279), an examination technique
+- 297 Functio laesa — wikidata-error: item Q5508760 is a subclass of functional disorder (P279)
+- 300 Gaenslen's test — wikidata-error: item Q5516652 is a subclass of tenderness (P279)
+- 304 Gastroenteritis — wikidata-error: item Q156103 is also typed as 'symptom or sign' (P31)
+- 306 Genitourinary amoebiasis — wikidata-error: item Q25099368 is a subclass of amoebic liver abscess (P279)
+- 313 Goldstein's toe sign — wikidata-error: item Q5580342 is a subclass of hallux varus (P279), a different deformity
+- 334 Haglund's syndrome — wikidata-error: the seed's item Q451876 is labelled 'Haglund's deformity', which is one component rather than the syndrome
+- 335 Halal syndrome — wikidata-error: item Q5641058 is a subclass of microcephaly and cleft palate (P279)
+- 357 Hepatosplenomegaly — wikidata-error: item Q1260186 is a subclass of hepatomegaly and of splenomegaly (P279)
+- 359 Hereditary neuralgic amyotrophy — wikidata-error: item Q17141939 lists aliases such as 'brachial plexus neuritis' that name the non-inherited Parsonage–Turner syndrome
+- 360 Heterochromia — wikidata-error: item Q461486 is a subclass of genetic disease (P279), though many cases are acquired or harmless
+- 362 HHH syndrome — wikidata-error: item Q7103627 is a subclass of infectious disease (P279)
+- 367 Hirschberg test — wikidata-error: item Q1484330 is typed as a clinical sign (P31) though it is a vision test
+- 372 Hoover's sign (pulmonary) — wikidata-error: item Q962069 has the alias 'chest indrawing', a broader sign of respiratory distress
+- 376 Hospital-acquired pneumonia — wikidata-error: item Q1957663 is a subclass of 'disease cluster' (P279)
+- 377 Howel–Evans syndrome — wikidata-error: item Q5921848 is a subclass of esophageal cancer (P279)
+- 381 Human body temperature — wikidata-error: item Q16679262 is typed as a clinical sign (P31)
+- 388 Hutchinson's mask — wikidata-error: item Q28403848 is a subclass of neuritis (P279)
+- 391 Hutchinson's teeth — wikidata-error: item Q1424702 has the alias 'Hutchinson's sign', which names other signs
+- 392 Hutchinson's triad — wikidata-error: item Q1639204 is a subclass of medical diagnosis (P279)
+- 396 Hyperosmolar syndrome — wikidata-error: item Q5958427 has the alias 'Hyperosmolality', a laboratory state with many causes
+- 398 Hyperprolactinaemia — wikidata-error: item Q1433936 is a subclass of both acquired metabolic disease and rare genetic pituitary disease (P279)
+- 406 Hypomimia — wikidata-error: item Q1503965 is typed as a neurological disorder (P31)
+- 408 Hypotonia — wikidata-error: item Q1753547 is a subclass of muscular disease (P279)
+- 412 Ichthyosis follicularis with alopecia and photophobia syndrome — wikidata-error: item Q5986440 is a subclass of photophobia (P279)
+- 413 Ideas and delusions of reference — wikidata-error: item Q2215516 is typed as a type of disease (P31)
+- 414 Idiopathic pure sudomotor failure — wikidata-error: item Q5988903 lists 'Acquired idiopathic generalized anhidrosis' as an alias, though the source names it the broader disorder
+- 416 Iliotibial band syndrome — wikidata-error: item Q1478137 is a subclass of occupational disease (P279)
+- 420 Infantile epileptic spasms syndrome — wikidata-error: item Q1041258 lists 'epileptic spasms' and 'infantile spasms' as aliases, but the source says the spasms can occur without the syndrome
+- 421 Infection — wikidata-error: item Q166231 is typed as a 'failure mode' (P31) and has the alias 'contagion'
+- 430 Influenza-like illness — wikidata-error: item Q3508755 is a subclass of upper respiratory tract infection (P279)
+- 433 Interstitial keratitis — wikidata-error: item Q6057162 is a subclass of connective tissue disease (P279)
+- 434 Intestinal infectious diseases — wikidata-error: item Q2970970 has the alias 'bacterial enteritis', too narrow for the class
+- 440 Irregular sleep–wake rhythm disorder — wikidata-error: item Q3454018 is a subclass of polyphasic sleep (P279), a voluntary sleep schedule
+- 441 Irukandji syndrome — wikidata-error: item Q1548946 is a subclass of jellyfish dermatitis (P279), though the syndrome is systemic
+- 444 Jaw claudication — wikidata-error: item Q19597620 is a subclass of jaw disease (P279)
+- 446 Joint effusion — wikidata-error: item Q1499629 has the alias 'joint swelling', which is broader
+- 447 Juvenile myoclonic epilepsy — wikidata-error: item Q543517 has the alias 'idiopathic generalized epilepsy', its parent class
+- 448 Kagami–Ogata syndrome — wikidata-error: item Q55783547 is labelled 'paternal uniparental disomy of chromosome 14', one cause among several
+- 452 Kennel cough — wikidata-error: item Q244834 has the alias 'tracheobronchitis', a broader human and animal term
+- 463 Kufor–Rakeb syndrome — wikidata-error: item Q6441908 is a subclass of eye degenerative disease (P279) and has the alias 'Ceroid Lipofuscinosis, Neuronal, 12'
+- 478 Lethargy — wikidata-error: item Q15637420 is typed as a syndrome (P31)
+- 479 Leukocoria — wikidata-error: item Q1862805 is typed as a type of disease (P31) and a subclass of eye degenerative disease (P279)
+- 482 Levator ani syndrome — wikidata-error: item Q6534949 lists 'proctalgia fugax' as an alias, a distinct condition
+- 488 Limb girdle syndrome — wikidata-error: item Q16919874 is a subclass of muscular dystrophy (P279)
+- 490 Linburg–Comstock variation — wikidata-error: item Q25324292 is a subclass of peripheral neuropathy (P279)
+- 504 Lockwood's sign — wikidata-error: item Q20708204 is a subclass of Crohn's disease and of appendicitis (P279)
+- 505 Loin pain hematuria syndrome — wikidata-error: item Q6668132 is a subclass of vasculopathy (P279)
+- 507 Loose anagen syndrome — wikidata-error: item Q3961659 is a subclass of 'bald head' (P279)
+- 510 Lucey–Driscoll syndrome — wikidata-error: item Q390908 has the alias 'Breast Milk Jaundice', a different and common condition
+- 512 Lymphedema–distichiasis syndrome — wikidata-error: item Q3508768 is a subclass of distichia (P279), one feature of the syndrome
+- 514 Lynch Syndrome — wikidata-error: item Q783644 is a subclass of colorectal cancer (P279)
+- 517 Macrophage activation syndrome — wikidata-error: item Q6725504 is a subclass of lymphoproliferative disorders (P279)
+- 523 Malformative syndrome — wikidata-error: item Q1401195 is typed as a deformity (P31)
+- 526 Malnutrition–inflammation complex — wikidata-error: item Q6744445 is typed as a symptom (P31)
+- 528 Marinesco–Sjögren syndrome — wikidata-error: item Q2628677 is a subclass of eyelid degenerative disease (P279)
+- 529 Markle's sign — wikidata-error: item Q6771095 is typed as a symptom (P31)
+- 533 Mayer–Rokitansky–Küster–Hauser syndrome — wikidata-error: item Q1473749 has aliases 'WNT4 deficiency' and 'Müllerian aplasia and hyperandrogenism', a distinct genetic syndrome
+- 546 Medically unexplained physical symptoms — wikidata-error: item Q6806627 lists dysautonomia as its cause (P828) and somatic symptom disorder as a part (P527)
+- 557 Mikulicz syndrome — wikidata-error: item Q516562 is a subclass of genetic otorhinolaryngologic disease (P279)
+- 561 Miller Fisher syndrome — wikidata-error: item Q449631 is also typed as 'symptom or sign' (P31) and its description calls it a descending paralysis
+- 562 Miller–Dieker syndrome — wikidata-error: item Q2200977 is typed as 'symptom or sign' (P31) and as a subclass of the mode 'autosomal dominant' (P279)
+- 566 Mitral valve prolapse — wikidata-error: item Q735652 is a subclass of clinical sign (P279)
+- 571 MonoMAC — wikidata-error: item Q6901244 has the alias 'Gata2 Deficiency', its broader parent class
+- 578 Muehrcke's nails — wikidata-error: item Q6931944 describes the lines as dark
+- 584 Multiple endocrine neoplasia type 1 — wikidata-error: item Q3347154 is a subclass of gastrointestinal system cancer (P279)
+- 586 Multiple organ dysfunction syndrome — wikidata-error: item Q1193870 is typed as a manner of death and 'symptom or sign' (P31) and as a general symptom (P279)
+- 587 Multisystem inflammatory syndrome in children — wikidata-error: item Q93629491 has the alias 'Kawasaki-like disease' and is a subclass of coronavirus disease (P279)
+- 592 Mycetoma — wikidata-error: item Q16877704 is a subclass of nocardiosis (P279), one cause only
+- 596 Mydriasis — wikidata-error: item Q1128283 has the alias 'fixed dilated pupil', a narrower finding
+- 599 Myoclonus — wikidata-error: item Q116275 is typed as a type of disease (P31) and has the alias 'clonic convulsions'
+- 600 Myomatous erythrocytosis syndrome — wikidata-error: item Q6947981 is a subclass of uterine fibroid (P279)
+- 609 Neoplasm — wikidata-error: item Q1216998 lists 'tumor' and 'carcinoma' as things it has effect on (P1542)
+- 615 Nicolau–Balus syndrome — wikidata-error: item Q7029952 is a subclass of syringoma and milium (P279), which are features
+- 618 Nodding disease — wikidata-error: item Q895930 lists 'parasitic infectious diseases' and 'autoimmune disease' as causes (P828)
+- 624 Nonvenereal endemic syphilis — wikidata-error: item Q682798 is a subclass of mouth disease and bone disease (P279)
+- 626 Nuclear sclerosis — wikidata-error: item Q7068198 is a subclass of cataract (P279), contrary to the veterinary sense
+- 629 Ober test — wikidata-error: item Q7074721 is typed as a clinical sign (P31)
+- 634 Ocular ischemic syndrome — wikidata-error: the seed's item Q2444886 is 'retinal vascular occlusion', a different condition
+- 635 Oculo-respiratory syndrome — wikidata-error: item Q7077151 is a subclass of respiratory disease (P279)
+- 637 Oculomucocutaneous syndrome — wikidata-error: item Q7077156 is a subclass of pemphigoid (P279)
+- 639 Odontoma dysphagia syndrome — wikidata-error: item Q7077978 describes odontomas as an 'undifferentiated mass of the esophagus'
+- 648 Orbital apex syndrome — wikidata-error: item Q7100071 has the alias 'Jacod syndrome', usually a different petrosphenoidal syndrome
+- 653 OSLAM syndrome — wikidata-error: item Q7073028 is a subclass of osteosarcoma (P279)
+- 655 Osteoporosis circumscripta — wikidata-error: item Q16908589 has the alias 'Schüller's disease', which names other conditions
+- 656 Otodental syndrome — wikidata-error: item Q9390614 is described as a congenital disorder of the digestive system
+- 660 Overlap syndrome — wikidata-error: item Q7113759 is a subclass of autoimmune disease (P279), too narrow
+- 662 Pacemaker syndrome — wikidata-error: item Q1717013 is a subclass of heart arrhythmia (P279)
+- 665 PAPA syndrome — wikidata-error: item Q7118181 has the alias 'Pyogenic arthritis', which names only one feature
+- 666 Papular purpuric gloves and socks syndrome — wikidata-error: item Q16948321 is also typed as a symptom (P31) and a subclass of medical diagnosis (P279)
+- 668 Parinaud's syndrome — wikidata-error: item Q1503804 is a subclass of orbital disease (P279)
+- 670 Parkes Weber syndrome — wikidata-error: item Q7138441 is a subclass of Klippel–Trénaunay–Weber syndrome (P279), a disputed merged name
+- 673 Parrot's sign — wikidata-error: item Q7139836 is described as a meningitis indicator, matching neither sense in the source
+- 687 Pendular nystagmus — wikidata-error: item Q3877344 is also typed as a type of disease (P31) and has the alias 'Other forms of nystagmus'
+- 689 Periorbital dark circles — wikidata-error: item Q155888 has the alias 'eyebags', which names periorbital puffiness
+- 692 Persistent genital arousal disorder — wikidata-error: item Q176671 describes it as affecting only female genitalia, while the source says both sexes
+- 698 Pharyngitis — wikidata-error: item Q2085267 is also typed as 'symptom or sign' (P31)
+- 700 Phlegmon — wikidata-error: item Q1136935 has the alias '(Cutaneous abscess, unspecified) ICD-10', which is the contrasting concept
+- 704 Pigment dispersion syndrome — wikidata-error: item Q2753827 has the alias 'pigment-dispersion type glaucoma', which names the complication
+- 711 Plica syndrome — wikidata-error: item Q7204944 is typed as an injury (P31)
+- 712 Pneumonia — wikidata-error: item Q12192 lists aspiration pneumonia and tobacco use disorder as causes (P828)
+- 721 Post-concussion syndrome — wikidata-error: item Q2581333 is a subclass of concussion (P279)
+- 726 Post-traumatic amnesia — wikidata-error: item Q1188518 is a subclass of retrograde amnesia (P279)
+- 727 Post-traumatic epilepsy — wikidata-error: item Q7233592 is a subclass of post-traumatic seizure (P279)
+- 730 Post-void shudder — wikidata-error: item Q30314429 is a subclass of convulsion (P279)
+- 731 Postcholecystectomy syndrome — wikidata-error: item Q912766 is a subclass of 'bladder disease' (P279), confusing gallbladder with urinary bladder
+- 737 Postural orthostatic tachycardia syndrome — wikidata-error: item Q620760 lists aliases such as 'soldiers heart', 'neurocirculatory asthenia' and 'mitral valve prolapse syndrome', and is a subclass of autoimmune disease and monogenic disease (P279)
+- 739 Potter sequence — wikidata-error: item Q2019823 is a subclass of renal agenesis (P279)
+- 742 Precordial catch syndrome — wikidata-error: item Q3408834 has the alias 'Precordial pain', its parent class
+- 749 Primary aldosteronism — wikidata-error: item Q1482922 is labelled Conn's syndrome and is a subclass of adrenal adenoma (P279)
+- 754 Progressive disease — wikidata-error: item Q1951525 has the alias 'chronic disease', a broader concept
+- 755 Progressive supranuclear palsy — wikidata-error: item Q945930 is a subclass of 'genetic neurodegenerative disease with dementia' (P279)
+- 760 Proteus-like syndrome — wikidata-error: item Q7251694 has the alias 'Cohen-Hayden syndrome', which is not an established name
+- 764 Pseudoexfoliation syndrome — wikidata-error: item Q3824795 is a subclass of hereditary glaucoma (P279) and has the alias 'Pseudoexfoliation glaucoma', a complication
+- 771 Pulmonary-renal syndrome — wikidata-error: item Q7259514 is a subclass of glomerulonephritis (P279)
+- 776 Purpura — wikidata-error: item Q935293 has the alias 'petechial rash', a different size of lesion
+- 780 Rabies — wikidata-error: item Q39222 has the alias 'extreme salivation', a symptom
+- 781 Raccoon eyes — wikidata-error: item Q1047245 is a subclass of black eye (P279)
+- 789 Refeeding syndrome — wikidata-error: item Q1812693 is a subclass of malnutrition (P279)
+- 795 Renpenning's syndrome — wikidata-error: item Q7313459 is a subclass of 'syndromic anorectal malformation' (P279), which is not a feature of the syndrome
+- 800 Reversible cerebral vasoconstriction syndrome — wikidata-error: item Q7318292 has an ICD coding note as an alias
+- 801 Revesz syndrome — wikidata-error: item Q7318329 describes an X-linked recessive mutation while its alias names an autosomal dominant form
+- 803 Reynolds syndrome — wikidata-error: item Q7319683 is a subclass of 'secondary glomerular disease' and 'skin manifestation' (P279)
+- 814 Roberts syndrome — wikidata-error: item Q619428 is a subclass of SC phocomelia syndrome (P279)
+- 816 Roemheld syndrome — wikidata-error: item Q1638006 is a subclass of cardiovascular disease (P279) though the symptoms are functional
+- 818 Rose spots — wikidata-error: item Q3941500 has a vandalised description ('It is not a punishment')
+- 821 Ross' syndrome — wikidata-error: item Q2167565 is a subclass of anhidrosis (P279)
+- 826 Rudiger syndrome — wikidata-error: item Q7376987 is a subclass of Schinzel–Giedion syndrome (P279), a separate disorder
+- 829 Saal Greenstein syndrome — wikidata-error: item Q7395634 is a subclass of Robinow syndrome (P279) although the article treats it as a similar but separate disorder
+- 835 Sandifer syndrome — wikidata-error: item Q3656132 is a subclass of gastroesophageal reflux disease, torticollis and rare genetic gastroenterological disease (P279)
+- 840 Satoyoshi syndrome — wikidata-error: item Q7426433 is a subclass of 'genetic systemic or rheumatologic disease' (P279) though the cause is presumed autoimmune
+- 841 Savant syndrome — wikidata-error: item Q467265 is a subclass of intellectual giftedness and its description calls it a disorder that 'turns people to a megasavant'
+- 850 Second-impact syndrome — wikidata-error: item Q7442966 is an instance of traumatology and neurology (P31), which are fields, and a subclass of concussion (P279)
+- 857 Sepsis-associated encephalopathy — wikidata-error: item Q54911517 is a subclass of sepsis (P279)
+- 858 Septo-optic dysplasia — wikidata-error: item Q2756703 is a subclass of autosomal genetic disease (P279), though most cases are sporadic
+- 859 Serpentine fibula–polycystic kidney syndrome — wikidata-error: item Q7455128 is a subclass of autosomal dominant polycystic kidney disease (P279)
+- 861 Serum sickness-like reaction — wikidata-error: item Q17143614 is described as an extrahepatic manifestation of acute hepatitis B and is a subclass of serum sickness (P279)
+- 867 Sheehan's syndrome — wikidata-error: item Q535876 is a subclass of Simmonds' cachexia (P279), a broader historical term
+- 871 Short anagen syndrome — wikidata-error: item Q7502007 is a subclass of alopecia (P279), though hair is present but short
+- 875 SHORT syndrome — wikidata-error: item Q7390227 is a subclass of short stature (P279), one of its features
+- 878 Sick building syndrome — wikidata-error: item Q1072290 is a subclass of extrinsic allergic alveolitis (P279)
+- 881 SIDS — wikidata-error: item Q161801 is a subclass of genetic disease (P279)
+- 886 Sjögren's disease — wikidata-error: item Q335555 has the alias 'xerodermosteosis', an obsolete term
+- 895 Smith–Martin–Dodd syndrome — wikidata-error: item Q17124192 is a subclass of tetralogy of Fallot (P279), one of its features
+- 901 Sniffle — wikidata-error: item Q17121750 is an instance of therapy (P31) and has aliases such as 'huff coughing' and 'forced expiration technique', which name a breathing exercise
+- 903 Sopite syndrome — wikidata-error: item Q7563166 is a subclass of fatigue (P279), one of its symptoms
+- 905 Split hand syndrome — wikidata-error: item Q7578690 is a subclass of motor neuron disease (P279)
+- 912 Stimmler syndrome — wikidata-error: item Q7617360 is a subclass of microcephaly (P279), one of its features
+- 916 Subclinical infection — wikidata-error: item Q2326546 has the alias 'latent infection', a different concept
+- 917 Subcutaneous emphysema — wikidata-error: item Q1412866 is a subclass of emphysema (P279), the lung disease
+- 922 Supernumerary nipples–uropathies–Becker's nevus syndrome — wikidata-error: item Q7644075 is a subclass of nubbin, urinary system disease and Becker's nevus (P279), which are its components
+- 923 Supernumerary phantom limb — wikidata-error: item Q7644078 is a subclass of phantom limb (P279)
+- 929 Syndrome — wikidata-error: item Q179630 is a subclass of both disease and symptom (P279) and has 'symptom' as a part (P527)
+- 930 Syndrome of inappropriate antidiuretic hormone secretion — wikidata-error: item Q959457 is a subclass of 'Inadequate secretion of antidiuretic hormone' (P279), the opposite condition
+- 931 Syphilis — wikidata-error: item Q41083 has the alias 'syphilitic chancre', which names its primary lesion
+- 933 Systemic inflammatory response syndrome — wikidata-error: item Q776030 is a subclass of cytokine release syndrome (P279)
+- 938 Tardive dyskinesia — wikidata-error: item Q1546328 is a subclass of genetic disease (P279)
+- 945 Teunissen–Cremers syndrome — wikidata-error: item Q7707070 is a subclass of conductive hearing loss (P279), one of its features
+- 956 Tooth and nail syndrome — wikidata-error: item Q7824262 has the alias 'Hypoplastic enamel-onycholysis-hypohidrosis syndrome', a different disorder
+- 959 Toxic oil syndrome — wikidata-error: item Q2061181 is an instance of food scandal (P31), an event
+- 960 Toxic shock syndrome — wikidata-error: item Q1128440 has the alias 'septic shock syndrome', a different condition
+- 963 Transverse myelitis — wikidata-error: item Q202217 is a subclass of 'disorder of medulla oblongata' (P279), which is part of the brainstem, not the spinal cord
+- 966 Trichothiodystrophy — wikidata-error: item Q3539030 is a subclass of autosomal dominant disease (P279), while the article describes recessive inheritance
+- 970 Tropical splenomegaly syndrome — wikidata-error: item Q7846184 is a subclass of malaria (P279)
+- 976 Tumor lysis syndrome — wikidata-error: item Q998803 is a subclass of lymphoproliferative disorders (P279)
+- 978 Twin anemia-polycythemia sequence — wikidata-error: item Q16258730 is a subclass of twin-to-twin transfusion syndrome (P279), which the article contrasts with it
+- 979 Twin-to-twin transfusion syndrome — wikidata-error: item Q1409160 is a subclass of anemia (P279) and has the alias 'Fetal hemorrhage into co-twin'
+- 994 Urethritis — wikidata-error: item Q1122485 has the alias 'Nongonococcal urethritis', a subtype
+- 995 Urinary tract infection — wikidata-error: item Q221668 is a subclass of cystitis (P279) and has the alias 'acute cystitis', both narrower
+- 1004 Van Wyk and Grumbach syndrome — wikidata-error: item Q18211704 is a subclass of precocious puberty and hypothyroidism (P279), its components
+- 1007 Vascular access steal syndrome — wikidata-error: item Q5484553 has a malformed alias 'r dialysis-associated steal syndrome ('
+- 1010 Vici syndrome — wikidata-error: item Q7925271 is a subclass of leukoderma (P279), one of its features
+- 1011 Villaret's syndrome — wikidata-error: item Q9390448 is a subclass of Horner's syndrome (P279), which is a component
+- 1021 Von Hippel–Lindau disease — wikidata-error: item Q741315 is a subclass of hemangioblastoma (P279), one of its tumours
+- 1036 Wiedemann–Rautenstrauch syndrome — wikidata-error: item Q3508774 is a subclass of secondary ectropion (P279), an unrelated eyelid condition
+- 1038 Williams–Campbell syndrome — wikidata-error: item Q8020956 has the alias 'BRONCHOMALACIA', its parent class
+- 1040 Wilson–Turner syndrome — wikidata-error: item Q8023321 is a subclass of obesity and gynecomastia (P279), its features
+- 1044 Wissler's syndrome — wikidata-error: item Q8027735 is a subclass of infectious disease (P279) though the article calls it rheumatic
+- 1051 Word salad — wikidata-error: item Q4384351 has the alias 'incoherence', a broader term
+- 1060 Xia–Gibbs syndrome — wikidata-error: item Q25111656 is a subclass of both syndromic and non-syndromic intellectual disability (P279)
+- 1062 XXXY syndrome — wikidata-error: item Q8042637 has the truncated alias '48'
+- 1079 Zori–Stalker–Williams syndrome — wikidata-error: item Q8074470 is a subclass of pectus excavatum, dysplastic nail and macrocephaly (P279), its features
+
+## WordNet notes (21)
+
+- 13 Acrocyanosis — wordnet: synset lists 'Raynaud's sign' as a lemma, which does not match the article's usage
+- 50 Auditory hallucination — wordnet: synset auditory_hallucination.n.01 glosses only nonverbal sounds, narrower than the article
+- 173 Cowpox — wordnet: synset cowpox.n.01 merges cowpox with vaccinia and glosses a cattle disease
+- 209 Derailment (thought disorder) — wordnet: the only synset for 'derailment' is a train accident
+- 266 Fatigue — wordnet: fatigue.n.01 is the everyday sense
+- 278 FLAMES (medicine) — wordnet: the only synset for the acronym is 'fire/flame'
+- 280 Flatulence — wordnet: flatulence.n.01 glosses excess gas in the gut, a different emphasis
+- 336 Hallucination — wordnet: hallucination.n.01 has hypernym 'delusion', which conflates the two
+- 351 Hematochezia — wordnet: hematochezia.n.01 has hypernym 'defecation', which is the act rather than the finding
+- 397 Hyperpigmentation — wordnet: hyperpigmentation.n.01 has hypernym 'physical condition', which is very broad
+- 454 Kernig's sign — wordnet: kernig's_sign.n.01 has hypernym 'symptom', but it is an examination sign
+- 478 Lethargy — wordnet: lethargy.n.01 is 'comatose torpor', a narrower sense
+- 564 Miosis — wordnet: the WordNet senses containing 'miosis' are meiosis (cell division) and the normal light reflex
+- 596 Mydriasis — wordnet: mydriasis.n.01 describes only the normal reflex dilation
+- 663 Pallor — wordnet: the synset lividness.n.01 mixes pallor with lividity and luridness
+- 698 Pharyngitis — wordnet: sore_throat.n.01 groups the symptom 'sore throat' with the disease pharyngitis
+- 702 Phrenitis — wordnet: encephalitis.n.01 lists 'phrenitis' as a synonym, which conflates it with the modern disease
+- 710 Plethora (medicine) — wordnet: overplus.n.01 ('plethora') means any extreme excess, not the medical sign
+- 776 Purpura — wordnet: synset gloss names a group of blood diseases rather than the skin finding
+- 881 SIDS — wordnet: synset also lists 'infant death', a broader term, and places it under sleep apnea
+- 951 Thoracic outlet syndrome — wordnet: synset gloss describes only the nerve form
+
+## Detail left out under the domain rule (86)
+
+- 5 Abdominal mass — domain-rule: treatment statement from the source omitted
+- 35 Anticonvulsant hypersensitivity syndrome — domain-rule: list of cross-reacting medications in the source omitted
+- 36 Antidepressant discontinuation syndrome — domain-rule: no guidance on tapering or management included
+- 47 Asymptomatic carrier — domain-rule: transmission details and named examples kept at a high level
+- 49 Atypical hemolytic uremic syndrome — domain-rule: treatment statements in the source omitted
+- 76 Blood-borne disease — domain-rule: description of transmission kept at category level
+- 100 Brown's vasomotor index — domain-rule: the source's statement about choosing surgical management omitted
+- 134 Cervicocranial syndrome — domain-rule: treatment options in the source omitted
+- 136 Chancre — domain-rule: the source's transmission statement is not repeated
+- 166 Contagious disease — domain-rule: modes of spread kept at category level
+- 167 Cord colitis syndrome — domain-rule: treatment response details omitted
+- 171 Cotton fever — domain-rule: no details of drug preparation are given beyond naming the context
+- 239 Emerging infectious disease — domain-rule: discussion of transmission and pandemic potential omitted
+- 247 Eosinophilia–myalgia syndrome — domain-rule: statements about dose and age risk factors omitted
+- 299 Fungal pneumonia — domain-rule: treatment response statements omitted
+- 306 Genitourinary amoebiasis — domain-rule: route of spread kept at high level
+- 343 Haverhill fever — domain-rule: route-of-acquisition details omitted
+- 369 HIV/AIDS — domain-rule: kept at a high level, transmission and treatment details left out
+- 452 Kennel cough — domain-rule: transmission details omitted
+- 464 Laboratory-acquired infection — domain-rule: kept at a high level, no details on agents or exposure routes
+- 481 Leukotriene receptor antagonist-associated Churg–Strauss syndrome — domain-rule: described at a high level with no treatment advice
+- 587 Multisystem inflammatory syndrome in children — domain-rule: kept at a high level, no treatment details
+- 592 Mycetoma — domain-rule: no organism or transmission details
+- 594 Mycosis fungoides — domain-rule: no treatment details
+- 597 Myocarditis-myositis-myasthenia gravis overlap syndrome — domain-rule: described at a high level with no treatment advice
+- 607 Neglected tropical diseases — domain-rule: no organism or transmission details
+- 608 Neonatal infection — domain-rule: transmission routes kept at a high level
+- 621 Non-gonococcal urethritis — domain-rule: no treatment or transmission details
+- 624 Nonvenereal endemic syphilis — domain-rule: no transmission details
+- 631 Occupational infectious disease — domain-rule: kept at a high level with no exposure details
+- 635 Oculo-respiratory syndrome — domain-rule: described at a high level with no medical advice
+- 637 Oculomucocutaneous syndrome — domain-rule: described at a high level with no treatment advice
+- 647 Oral mite anaphylaxis — domain-rule: kept at a high level, without contamination or storage details
+- 650 Organic dust toxic syndrome — domain-rule: kept at a high level with no exposure details
+- 666 Papular purpuric gloves and socks syndrome — domain-rule: no transmission details
+- 686 Pendred syndrome — domain-rule: treatment details omitted
+- 688 Penile artery shunt syndrome — domain-rule: described at a high level with no treatment advice
+- 712 Pneumonia — domain-rule: no organism or treatment details
+- 715 Polio-like syndrome — domain-rule: kept at a high level, no transmission details
+- 729 Post-vasectomy pain syndrome — domain-rule: treatment details omitted
+- 734 Postpartum infections — domain-rule: no organism or treatment details
+- 746 Presumed ocular histoplasmosis syndrome — domain-rule: no organism details
+- 757 Propofol infusion syndrome — domain-rule: dosing and treatment details omitted
+- 759 Prosthetic joint infection — domain-rule: no organism or treatment details
+- 761 Protothecosis — domain-rule: organism biology and treatment details omitted
+- 766 Pseudomonas infection — domain-rule: organism biology, resistance and treatment details omitted
+- 773 Punding — domain-rule: drug use details omitted
+- 780 Rabies — domain-rule: virus biology, transmission and treatment details omitted
+- 784 Rat-bite fever — domain-rule: organism and transmission details omitted
+- 787 Reactive arthritis — domain-rule: organism details omitted
+- 789 Refeeding syndrome — domain-rule: feeding and treatment details omitted
+- 796 Respiratory tract infection — domain-rule: no organism details
+- 802 Reye syndrome — domain-rule: treatment details omitted
+- 818 Rose spots — domain-rule: no organism details
+- 839 Sapronosis — domain-rule: no organism or transmission details
+- 856 Sepsis — domain-rule: organism and treatment details omitted
+- 862 Severe acute respiratory syndrome — domain-rule: virus origin, transmission and outbreak details omitted
+- 863 Severe cutaneous adverse reactions — domain-rule: drug and treatment details omitted
+- 872 Short bowel syndrome — domain-rule: treatment details omitted
+- 911 Steroid dementia syndrome — domain-rule: drug dosing details omitted
+- 913 Stimson line — domain-rule: no organism details
+- 916 Subclinical infection — domain-rule: no organism details
+- 919 Sulfonamide hypersensitivity syndrome — domain-rule: drug and treatment details omitted
+- 931 Syphilis — domain-rule: organism and transmission details omitted
+- 934 Sézary disease — domain-rule: treatment details omitted
+- 938 Tardive dyskinesia — domain-rule: drug details omitted
+- 942 Tension myositis syndrome — domain-rule: treatment protocol omitted
+- 943 Tertiary peritonitis — domain-rule: organism and treatment details omitted
+- 950 Thoracic insufficiency syndrome — domain-rule: surgical and device details omitted
+- 960 Toxic shock syndrome — domain-rule: organism and treatment details omitted
+- 965 Travelers' diarrhea — domain-rule: organism and treatment details omitted
+- 969 Tropical disease — domain-rule: no organism or vector details
+- 970 Tropical splenomegaly syndrome — domain-rule: no organism details
+- 971 Tropical ulcer — domain-rule: organism details omitted
+- 974 Tuberculous dactylitis — domain-rule: organism and treatment details omitted
+- 976 Tumor lysis syndrome — domain-rule: treatment details omitted
+- 989 Upper respiratory tract infection — domain-rule: no organism details
+- 994 Urethritis — domain-rule: organism and treatment details omitted
+- 995 Urinary tract infection — domain-rule: organism and treatment details omitted
+- 1013 VIPoma — domain-rule: treatment details omitted
+- 1039 Wilson's temperature syndrome — domain-rule: treatment details omitted
+- 1043 Winterbottom's sign — domain-rule: organism details omitted
+- 1057 X-linked lymphoproliferative disease — domain-rule: no virus details
+- 1064 XY gonadal dysgenesis — domain-rule: treatment details omitted
+- 1075 Zieve's syndrome — domain-rule: treatment details omitted
+- 1078 Zoonosis — domain-rule: no pathogen or transmission details
