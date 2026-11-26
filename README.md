@@ -18,7 +18,7 @@ The same condition can be named as a disease, a syndrome or a sign, and a model-
 
 ## Where the draft is
 
-There is no draft yet. The closest documents are the [seed list and its provenance](data/README.md), the [replication kit](replication/README.md) and the [rules for the reviewed edition](lexicon/README.md).
+Rough draft, not reviewed: the [paper series](paper/README.md), modelled on the WordNet papers, with the [human evaluation to-do](paper/HUMAN-EVALUATION-TODO.md). One independent Grok Bot edition is checked (1,077/1,079 pass: 932 entries; 2 records still fail); a second edition, cross-model judging and human evaluation have not been run.
 
 ## What needs to be done
 
