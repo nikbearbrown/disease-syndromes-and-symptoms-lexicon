@@ -1,6 +1,6 @@
 # Help build the Disease, Syndromes and Symptoms Lexicon
 
-There is no draft yet, so this is a good time to shape the method. We're looking for collaborators who can draft or check independent editions, review entries in their field, or help write the paper. You don't need to review the whole project to help.
+A [rough methods manuscript](paper/manuscript.md) is available, and this is a good time to shape the method. We're looking for collaborators who can draft or check independent editions, review entries in their field, or help write the paper. You don't need to review the whole project to help.
 
 **If you have an hour:** open [data/seeds.tsv](data/seeds.tsv), pick ten pages in an area you know, and [open an issue](https://github.com/nikbearbrown/disease-syndromes-and-symptoms-lexicon/issues/new) that says which of them name a single disease, syndrome, symptom or sign and which do not. Give each page's `concept_id` and a one-line reason.
 
