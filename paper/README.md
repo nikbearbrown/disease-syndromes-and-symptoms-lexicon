@@ -1,6 +1,8 @@
 # Paper draft
 
-- [Manuscript](manuscript.md)
+- [Revised rough draft v0.2](manuscript-v0.2.md): includes benchmark and figure specifications.
+- [Original rough draft](manuscript.md)
+- [Critique review](critique-silent-review.md)
 - [Methods critique](critique.md)
 - [Both agentic workflows and Mermaid figure](agentic-workflows.md)
 
